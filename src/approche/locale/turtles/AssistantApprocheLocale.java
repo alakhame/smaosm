@@ -68,10 +68,11 @@ public class AssistantApprocheLocale extends TurtleNetWorkTurtle {
 				if (existe) {
 					int stepnouv = p.getDate();
 					int stepancien = listePlaces.get(i).getDate();
-					if (stepnouv > stepancien) {
+					if (stepnouv > stepancien || listePlaces.get(i).getDistanceToPlace()>p.getDistanceToPlace()) {
 						listePlaces.remove(i);
 						listePlaces.add(p);
 					}
+				
 				} else
 					listePlaces.add(p);
 			} else
@@ -161,9 +162,42 @@ public class AssistantApprocheLocale extends TurtleNetWorkTurtle {
 		/*********** end logging ******************/
 		if (listePlaces.size() != 0) {
 			pl = listePlaces.get(0);
+			
+			/******* ADD 2.0 *********************/
+			ArrayList<PlaceLiberee> candidates = listePlaces;
+			boolean foundPlace=false;
+			
+			while(foundPlace && candidates.size()>0){
+				int indiceplace=0;
+				for (int ipc=0;ipc<candidates.size();ipc++) {
+					if(cr.distanceCourante(cr.getArcCourant(),candidates.get(ipc).getPlace()) < 
+						cr.distanceCourante(cr.getArcCourant(),candidates.get(indiceplace).getPlace()) )
+						indiceplace=ipc;
+				}
+				pl=candidates.get(indiceplace);
+				candidates.remove(indiceplace);
+				if(cr.distanceCourante(cr.getArcCourant(),pl.getPlace()) < pl.getDistanceToPlace() || !pl.isIntention() ){
+					pl.setIntention(true);
+					pl.setDistanceToPlace(cr.distanceCourante(cr.getArcCourant(),pl.getPlace()));
+					pl.setDate(step);
+					foundPlace=true;
+				}
+			}
+			
+			if(foundPlace){
+				listePlaces.remove(listePlaces.indexOf(pl));
+				listePlaces.add(pl);
+			}
+			
+			/************************************/
+			
 			placeChoisie = pl.getPlace();
 			ArrayList<Arc> ch1;
-			if (listePlaces.size() > 1) {
+			cr.plusCourtChemin();
+			cr.getChemin(Reseau.getArc(placeChoisie.getIdArc()),cr.getArcCourant());
+			ch1 = cr.getChemin();
+			
+			/*if (listePlaces.size() > 1) {
 				cr.plusCourtChemin();
 				cr.getChemin(Reseau.getArc(placeChoisie.getIdArc()),cr.getArcCourant());
 				double d, d1;
@@ -183,9 +217,15 @@ public class AssistantApprocheLocale extends TurtleNetWorkTurtle {
 					}
 				}
 				// chemin=ch1;
-			}
-			if (listePlaces.contains(pl))
-				listePlaces.remove(pl);
+			}*/
+			
+			
+			//if (listePlaces.contains(pl))
+			//listePlaces.remove(pl);
+			//diffuse maybe ?
+			
+			
+		
 		}
 
 	}
@@ -195,6 +235,9 @@ public class AssistantApprocheLocale extends TurtleNetWorkTurtle {
 		PlaceLiberee placelib = new PlaceLiberee();
 		placelib.setDate(step);
 		placelib.setPlace(new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position)));
+		placelib.setDistanceToPlace(10000000.0);
+		placelib.setIntention(false);
+		
 		listenoire.remove(placelib);
 		ajoutPlace(placelib);
 		println(" I'm leaving a new place ("+listePlaces+") -- ( "+xcor()+" , "+ ycor() +" )" );
@@ -223,7 +266,7 @@ public class AssistantApprocheLocale extends TurtleNetWorkTurtle {
 		for (PlaceLiberee plb : lpb) {
 			if (listenoire.contains(plb)) {
 				ind = listenoire.indexOf(plb);
-				if (plb.getDate() >= listenoire.get(ind).getDate()) {
+				if (plb.getDistanceToPlace() < listenoire.get(ind).getDistanceToPlace()) {
 					listenoire.remove(plb);
 					ajoutPlace(plb);
 				}

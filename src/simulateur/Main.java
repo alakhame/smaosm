@@ -17,9 +17,9 @@ public class Main {
 		
 		int nombreSimulation = 	1; 		// nombre de simulations
 		int nbreAgComm		=	100;	// Agents de la communauté
-		int nbreAgHORSComm	=	100;	// Agents en dehors de la communauté
-		int nbreIterations	=	200;	// Nombre de pas d'une simulation
-		int range  			= 	5; 	//rayon d'actions des voitures 
+		int nbreAgHORSComm	=	200;	// Agents en dehors de la communauté
+		int nbreIterations	=	100;	// Nombre de pas d'une simulation
+		int range  			= 	5; 		//rayon d'actions des voitures 
 		int vitesse			=	500;		// "vitesse" de la simulation
 		
 		Reseau.instancierReseau();	

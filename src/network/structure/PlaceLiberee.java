@@ -4,7 +4,9 @@ public class PlaceLiberee {
 
 	private Place place;
 	private int date;
-
+	private boolean intention; 
+	private double distanceToPlace;
+	
 	public void setPlace(Place place) {
 		this.place = place;
 	}
@@ -29,6 +31,21 @@ public class PlaceLiberee {
 		return ((p instanceof PlaceLiberee)
 				&& (this.place.getCoordonnees().getX() == ((PlaceLiberee) p).getPlace().getCoordonnees().getX())
 				&& (this.place.getCoordonnees().getY() == ((PlaceLiberee) p).getPlace().getCoordonnees().getY()));
+	}
+	
+	/////////////////
+	
+	public double getDistanceToPlace() {
+		return distanceToPlace;
+	}
+	public void setDistanceToPlace(double distanceToPlace) {
+		this.distanceToPlace = distanceToPlace;
+	}
+	public boolean isIntention() {
+		return intention;
+	}
+	public void setIntention(boolean intention) {
+		this.intention = intention;
 	}
 
 }

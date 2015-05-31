@@ -1,0 +1,61 @@
+
+Dans ce document, on présente la manière utilisée pour extraire les données OSM vers une base de donnée PostgreSQL.
+
+Outils :
+	* 	JOSM : c'est un éditeur java pour la cartographie collaborative libre sur OpenStreetMap. Cest utilitaire
+		permettant de consulter et de modifier les données cartographiques de la base de données libre OpenStreetMap.
+		
+		Téléchargement : http://josm.openstreetmap.de/
+		
+		Documentation : http://wiki.openstreetmap.org/wiki/FR:JOSM
+
+
+	*	OSMFILTER : utilitaire pour filtrer les fichiers osm afin d'en garder que les objets dont les tags nous 
+		intéressent. Pratique pour réduire la taille des fichiers pleins d'éléments qu'on aura pas à utiliser.
+	
+		Téléchargement : http://wiki.openstreetmap.org/wiki/Osmfilter
+		
+		Documentation : http://wiki.openstreetmap.org/wiki/Osmfilter
+		
+		
+	*	OSMOSIS : outil écrit en java permettant de manipuler les .osm : decoupage, conversion, migration , tri ...
+	
+		Téléchargement :  http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip
+		
+		Documentation : http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.43
+		
+
+Migration :
+	Osmosis supportant PostgresSQL, on a installé la dernière version contenant l'infarce d'admistration pgAdmin et PostGIS
+	à cet adresse :http://www.postgresql.org/download/ .
+	Une fois que l'on créé une base de données, il faut y importer le schéma relationnel correspondant à l'api que l'on 
+	utilisera avec OSMOSIS. Par défaut, on peut le trouver avec OSMOSIS dans le répertoire suivant : script\contrib .
+	
+	Ensuite on délimite à l'aide de OSM, l'étendue de la zone nous intéressant en notant les coordonnées des 4 points contituants
+	le quadrilatère considéré. Après quoi on pourra découper selon le la commande suivante :
+		osmosis  --read-xml  file=fichierComplet.osm  --bounding-box top=1.0 left=2.0 bottom=3.0 right=4.0 clipIncompleteEntities=yes --write-xml fichierCoupe.osm 
+	
+	Notons l'utilisation de l'option clipIncompleteEntities qui permet de ne pas garder les objets qui référencent des éléments manquants(absents
+	de notre zone).
+	
+	On peut enfin lancer l'extraction avec :
+		osmosis  --read-xml  file=fichier.osm --write-apidb host=localhost database=la_BDD user=osm password=1234 validateSchemaVersion=no
+		
+		
+** On peut réduire considérablement le temps et la taille des fichiers osm avec OSMFILTER (voir documentation )
+** Il est préférable d'utiliser cette commande après avoir utilisé osmfilter afin d'éviter des problèmes de cohérence lors de l'importation:
+		osmosis  --read-xml  fichier1.osm --used-node --write-xml fichier2.osm
+** Aussi on peut faire usage de JOSM pour supprimer des routes disjoints ou les adjoindre au reste du réseau pour éviter les arcs qui sont isolés.
+
+
+
+- La classe mapping.utils.EnvHelper contient les informations à modifier pour l'adapter à la base de donnée
+- La classe graphics.TestFrame permet d'avoir un aperçu des routes de la carte importée.
+	
+	
+		
+	
+	
+	
+	
+	

@@ -1,0 +1,999 @@
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat arret
+turtle1 arc:-8992 de (112,239) fin (98,236) place [(112,239):false, (98,236):true] true 1 coordonnées (98,236) etat vadrouille
+turtle1 arc:-8994 de (98,236) fin (81,232) place [(98,236):false, (81,232):false] true 0 coordonnées (98,236) etat vadrouille
+turtle1 arc:-8994 de (98,236) fin (81,232) place [(98,236):false, (81,232):false] true 1 coordonnées (81,232) etat vadrouille
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat vadrouille
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 1 coordonnées (79,232) etat vadrouille
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 0 coordonnées (73,231) etat vadrouille
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] true 0 coordonnées (73,231) etat vadrouille
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] true 1 coordonnées (80,199) etat vadrouille
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] true 0 coordonnées (80,199) etat cherche
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] true 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 0 coordonnées (53,195) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 0 coordonnées (80,135) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 2 coordonnées (54,131) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 3 coordonnées (23,125) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 4 coordonnées (12,120) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 0 coordonnées (12,120) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 1 coordonnées (17,105) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 2 coordonnées (19,100) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 3 coordonnées (20,98) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 4 coordonnées (23,92) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 5 coordonnées (29,77) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 2 coordonnées (29,77) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 1 coordonnées (31,76) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 0 coordonnées (41,72) etat cherche
+turtle1 arc:-10164 de (64,89) fin (41,72) place [(64,89):false, (52,87):false, (50,86):false, (41,72):false] false 3 coordonnées (41,72) etat cherche
+turtle1 arc:-10164 de (64,89) fin (41,72) place [(64,89):false, (52,87):false, (50,86):false, (41,72):false] false 2 coordonnées (50,86) etat cherche
+turtle1 arc:-10164 de (64,89) fin (41,72) place [(64,89):false, (52,87):false, (50,86):false, (41,72):false] false 1 coordonnées (52,87) etat cherche
+turtle1 arc:-10164 de (64,89) fin (41,72) place [(64,89):false, (52,87):false, (50,86):false, (41,72):false] false 0 coordonnées (64,89) etat cherche
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 3 coordonnées (64,89) etat cherche
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 2 coordonnées (81,91) etat cherche
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 1 coordonnées (87,89) etat cherche
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 0 coordonnées (91,88) etat cherche
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 0 coordonnées (91,88) etat cherche
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 1 coordonnées (91,95) etat cherche
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 2 coordonnées (92,104) etat cherche
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 3 coordonnées (94,112) etat cherche
+turtle1 arc:-9006 de (76,108) fin (94,112) place [(76,108):false, (94,112):true] false 1 coordonnées (94,112) etat cherche
+turtle1 arc:-9006 de (76,108) fin (94,112) place [(76,108):false, (94,112):true] false 0 coordonnées (76,108) etat cherche
+turtle1 arc:-10160 de (73,116) fin (76,108) place [(73,116):false, (76,108):false] false 1 coordonnées (76,108) etat cherche
+turtle1 arc:-10160 de (73,116) fin (76,108) place [(73,116):false, (76,108):false] false 0 coordonnées (73,116) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 7 coordonnées (73,116) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 6 coordonnées (72,117) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 5 coordonnées (70,120) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 4 coordonnées (66,128) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 3 coordonnées (58,137) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 2 coordonnées (49,146) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 1 coordonnées (43,152) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 0 coordonnées (37,158) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 4 coordonnées (37,158) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 3 coordonnées (27,156) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat arret
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 1 coordonnées (14,154) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 0 coordonnées (10,156) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 0 coordonnées (10,156) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 2 coordonnées (8,133) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 3 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 4 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 3 coordonnées (23,125) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 2 coordonnées (54,131) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 0 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 0 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 2 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 1 coordonnées (92,138) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] false 1 coordonnées (100,139) etat cherche
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] false 0 coordonnées (110,142) etat cherche
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 1 coordonnées (110,142) etat vadrouille
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] false 0 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9044 de (146,149) fin (125,144) place [(146,149):false, (126,145):false, (125,144):false] false 2 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9044 de (146,149) fin (125,144) place [(146,149):false, (126,145):false, (125,144):false] false 1 coordonnées (126,145) etat vadrouille
+turtle1 arc:-9044 de (146,149) fin (125,144) place [(146,149):false, (126,145):false, (125,144):false] false 0 coordonnées (146,149) etat vadrouille
+turtle1 arc:-9100 de (168,153) fin (146,149) place [(168,153):false, (146,149):false] false 1 coordonnées (146,149) etat vadrouille
+turtle1 arc:-9100 de (168,153) fin (146,149) place [(168,153):false, (146,149):false] false 0 coordonnées (168,153) etat vadrouille
+turtle1 arc:-9114 de (162,184) fin (168,153) place [(162,184):false, (167,155):false, (168,153):false] false 2 coordonnées (168,153) etat vadrouille
+turtle1 arc:-9114 de (162,184) fin (168,153) place [(162,184):false, (167,155):false, (168,153):false] false 1 coordonnées (167,155) etat cherche
+turtle1 arc:-9114 de (162,184) fin (168,153) place [(162,184):false, (167,155):false, (168,153):false] false 0 coordonnées (162,184) etat cherche
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 3 coordonnées (162,184) etat cherche
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 2 coordonnées (161,184) etat cherche
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat arret
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 1 coordonnées (141,179) etat vadrouille
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] false 0 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 2 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 0 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 1 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 0 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9094 de (131,124) fin (125,144) place [(131,124):false, (125,144):true] false 1 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9094 de (131,124) fin (125,144) place [(131,124):false, (125,144):true] false 0 coordonnées (131,124) etat cherche
+turtle1 arc:-9226 de (128,122) fin (131,124) place [(128,122):false, (131,124):false] false 1 coordonnées (131,124) etat cherche
+turtle1 arc:-9226 de (128,122) fin (131,124) place [(128,122):false, (131,124):false] false 0 coordonnées (128,122) etat cherche
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat arret
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 2 coordonnées (128,122) etat vadrouille
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 1 coordonnées (118,118) etat vadrouille
+turtle1 arc:-10250 de (115,117) fin (128,122) place [(115,117):false, (118,118):false, (128,122):true] false 0 coordonnées (115,117) etat vadrouille
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 2 coordonnées (115,117) etat vadrouille
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 1 coordonnées (105,113) etat vadrouille
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 0 coordonnées (94,112) etat vadrouille
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 0 coordonnées (94,112) etat vadrouille
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 1 coordonnées (89,137) etat vadrouille
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 2 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 1 coordonnées (92,138) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat cherche
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 0 coordonnées (100,171) etat cherche
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 1 coordonnées (114,174) etat cherche
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 0 coordonnées (114,174) etat cherche
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 2 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] true 0 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] true 1 coordonnées (139,184) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] true 2 coordonnées (134,210) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 0 coordonnées (134,210) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 1 coordonnées (120,207) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 2 coordonnées (110,205) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 3 coordonnées (98,203) etat cherche
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat vadrouille
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 0 coordonnées (103,194) etat vadrouille
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] false 1 coordonnées (103,194) etat vadrouille
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] false 0 coordonnées (107,187) etat vadrouille
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 2 coordonnées (107,187) etat vadrouille
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 1 coordonnées (108,184) etat vadrouille
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 0 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 1 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 0 coordonnées (125,144) etat cherche
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 0 coordonnées (125,144) etat cherche
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat arret
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat vadrouille
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] true 0 coordonnées (110,142) etat vadrouille
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] true 1 coordonnées (100,139) etat vadrouille
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 0 coordonnées (100,139) etat vadrouille
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat vadrouille
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 0 coordonnées (100,171) etat vadrouille
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 1 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] true 0 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] true 1 coordonnées (108,184) etat cherche
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] true 2 coordonnées (107,187) etat cherche
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] true 0 coordonnées (107,187) etat cherche
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] true 1 coordonnées (103,194) etat cherche
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 0 coordonnées (103,194) etat cherche
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat arret
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] true 1 coordonnées (98,203) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 3 coordonnées (98,203) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 2 coordonnées (110,205) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 1 coordonnées (120,207) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 0 coordonnées (134,210) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] false 2 coordonnées (134,210) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] false 1 coordonnées (139,184) etat vadrouille
+turtle1 arc:-9823 de (140,179) fin (134,210) place [(140,179):false, (139,184):false, (134,210):false] false 0 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 2 coordonnées (140,179) etat cherche
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat arret
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 1 coordonnées (126,176) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] false 0 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 1 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9116 de (125,144) fin (114,174) place [(125,144):false, (114,174):true] false 0 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 0 coordonnées (125,144) etat vadrouille
+turtle1 arc:-9977 de (125,144) fin (110,142) place [(125,144):false, (110,142):true] true 1 coordonnées (110,142) etat vadrouille
+turtle1 arc:-9260 de (115,117) fin (110,142) place [(115,117):false, (110,142):false] false 1 coordonnées (110,142) etat vadrouille
+turtle1 arc:-9260 de (115,117) fin (110,142) place [(115,117):false, (110,142):false] false 0 coordonnées (115,117) etat vadrouille
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 2 coordonnées (115,117) etat cherche
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 1 coordonnées (105,113) etat cherche
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 0 coordonnées (94,112) etat cherche
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 0 coordonnées (94,112) etat cherche
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 1 coordonnées (89,137) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] true 0 coordonnées (89,137) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] true 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 1 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 2 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 1 coordonnées (20,238) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 0 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 1 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 1 coordonnées (27,179) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 0 coordonnées (31,186) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] false 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] false 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] true 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] true 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] false 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] false 0 coordonnées (80,199) etat cherche
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] false 1 coordonnées (80,199) etat cherche
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] false 0 coordonnées (73,231) etat cherche
+turtle1 arc:-9334 de (67,230) fin (73,231) place [(67,230):false, (73,231):false] false 1 coordonnées (73,231) etat cherche
+turtle1 arc:-9334 de (67,230) fin (73,231) place [(67,230):false, (73,231):false] false 0 coordonnées (67,230) etat cherche
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat arret
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 1 coordonnées (67,230) etat vadrouille
+turtle1 arc:-9310 de (63,251) fin (67,230) place [(63,251):false, (67,230):true] false 0 coordonnées (63,251) etat vadrouille
+turtle1 arc:-9384 de (63,251) fin (18,264) place [(63,251):false, (60,253):false, (37,259):false, (18,264):false] true 0 coordonnées (63,251) etat vadrouille
+turtle1 arc:-9384 de (63,251) fin (18,264) place [(63,251):false, (60,253):false, (37,259):false, (18,264):false] true 1 coordonnées (60,253) etat vadrouille
+turtle1 arc:-9384 de (63,251) fin (18,264) place [(63,251):false, (60,253):false, (37,259):false, (18,264):false] true 2 coordonnées (37,259) etat vadrouille
+turtle1 arc:-9384 de (63,251) fin (18,264) place [(63,251):false, (60,253):false, (37,259):false, (18,264):false] true 3 coordonnées (18,264) etat vadrouille
+turtle1 arc:-9290 de (18,264) fin (13,240) place [(18,264):false, (13,240):true] true 0 coordonnées (18,264) etat vadrouille
+turtle1 arc:-9290 de (18,264) fin (13,240) place [(18,264):false, (13,240):true] true 1 coordonnées (13,240) etat vadrouille
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 1 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat vadrouille
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 1 coordonnées (27,179) etat vadrouille
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 0 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 0 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 0 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 0 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 0 coordonnées (80,135) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 1 coordonnées (64,132) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 2 coordonnées (54,131) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 3 coordonnées (23,125) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] true 4 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 0 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 1 coordonnées (17,105) etat vadrouille
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 2 coordonnées (19,100) etat vadrouille
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 3 coordonnées (20,98) etat vadrouille
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 4 coordonnées (23,92) etat cherche
+turtle1 arc:-9058 de (12,120) fin (29,77) place [(12,120):false, (17,105):false, (19,100):false, (20,98):false, (23,92):false, (29,77):true] true 5 coordonnées (29,77) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 2 coordonnées (29,77) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 1 coordonnées (31,76) etat cherche
+turtle1 arc:-10113 de (41,72) fin (29,77) place [(41,72):false, (31,76):false, (29,77):false] false 0 coordonnées (41,72) etat cherche
+turtle1 arc:-10152 de (67,66) fin (41,72) place [(67,66):false, (57,70):false, (49,74):false, (41,72):true] false 3 coordonnées (41,72) etat cherche
+turtle1 arc:-10152 de (67,66) fin (41,72) place [(67,66):false, (57,70):false, (49,74):false, (41,72):true] false 2 coordonnées (49,74) etat cherche
+turtle1 arc:-10152 de (67,66) fin (41,72) place [(67,66):false, (57,70):false, (49,74):false, (41,72):true] false 1 coordonnées (57,70) etat cherche
+turtle1 arc:-10152 de (67,66) fin (41,72) place [(67,66):false, (57,70):false, (49,74):false, (41,72):true] false 0 coordonnées (67,66) etat cherche
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 2 coordonnées (67,66) etat cherche
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat arret
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 1 coordonnées (70,65) etat vadrouille
+turtle1 arc:-10154 de (80,61) fin (67,66) place [(80,61):false, (70,65):true, (67,66):false] false 0 coordonnées (80,61) etat vadrouille
+turtle1 arc:-10158 de (91,88) fin (80,61) place [(91,88):false, (89,84):true, (80,61):false] false 2 coordonnées (80,61) etat vadrouille
+turtle1 arc:-10158 de (91,88) fin (80,61) place [(91,88):false, (89,84):true, (80,61):false] false 1 coordonnées (89,84) etat vadrouille
+turtle1 arc:-10158 de (91,88) fin (80,61) place [(91,88):false, (89,84):true, (80,61):false] false 0 coordonnées (91,88) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] true 0 coordonnées (91,88) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] true 1 coordonnées (87,89) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] true 2 coordonnées (81,91) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] true 3 coordonnées (64,89) etat cherche
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 3 coordonnées (64,89) etat vadrouille
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 2 coordonnées (65,99) etat vadrouille
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 1 coordonnées (69,108) etat vadrouille
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] false 0 coordonnées (73,116) etat vadrouille
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 7 coordonnées (73,116) etat vadrouille
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 6 coordonnées (72,117) etat vadrouille
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 5 coordonnées (70,120) etat vadrouille
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 4 coordonnées (66,128) etat vadrouille
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 3 coordonnées (58,137) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 2 coordonnées (49,146) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 1 coordonnées (43,152) etat cherche
+turtle1 arc:-9722 de (37,158) fin (73,116) place [(37,158):false, (43,152):false, (49,146):false, (58,137):false, (66,128):false, (70,120):false, (72,117):false, (73,116):false] false 0 coordonnées (37,158) etat cherche
+turtle1 arc:-9734 de (21,171) fin (37,158) place [(21,171):false, (37,158):false] false 1 coordonnées (37,158) etat cherche
+turtle1 arc:-9734 de (21,171) fin (37,158) place [(21,171):false, (37,158):false] false 0 coordonnées (21,171) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] false 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 1 coordonnées (7,170) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 2 coordonnées (10,156) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 0 coordonnées (10,156) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat arret
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 2 coordonnées (8,133) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 3 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 4 coordonnées (12,120) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 3 coordonnées (23,125) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 2 coordonnées (54,131) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 0 coordonnées (80,135) etat vadrouille
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 1 coordonnées (55,162) etat vadrouille
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 0 coordonnées (37,158) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 4 coordonnées (37,158) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 3 coordonnées (27,156) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 1 coordonnées (14,154) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 0 coordonnées (10,156) etat vadrouille
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 0 coordonnées (10,156) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 2 coordonnées (8,133) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 3 coordonnées (12,120) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 4 coordonnées (12,120) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 3 coordonnées (23,125) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 2 coordonnées (54,131) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 0 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 0 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 2 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 1 coordonnées (92,138) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] false 1 coordonnées (100,139) etat cherche
+turtle1 arc:-9983 de (110,142) fin (100,139) place [(110,142):false, (100,139):false] false 0 coordonnées (110,142) etat cherche
+turtle1 arc:-9260 de (115,117) fin (110,142) place [(115,117):false, (110,142):false] false 1 coordonnées (110,142) etat cherche
+turtle1 arc:-9260 de (115,117) fin (110,142) place [(115,117):false, (110,142):false] false 0 coordonnées (115,117) etat cherche
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 2 coordonnées (115,117) etat cherche
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 1 coordonnées (105,113) etat cherche
+turtle1 arc:-9274 de (94,112) fin (115,117) place [(94,112):false, (105,113):false, (115,117):false] false 0 coordonnées (94,112) etat cherche
+turtle1 arc:-9006 de (76,108) fin (94,112) place [(76,108):false, (94,112):true] false 1 coordonnées (94,112) etat cherche
+turtle1 arc:-9006 de (76,108) fin (94,112) place [(76,108):false, (94,112):true] false 0 coordonnées (76,108) etat cherche
+turtle1 arc:-10160 de (73,116) fin (76,108) place [(73,116):false, (76,108):false] false 1 coordonnées (76,108) etat cherche
+turtle1 arc:-10160 de (73,116) fin (76,108) place [(73,116):false, (76,108):false] false 0 coordonnées (73,116) etat cherche
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 0 coordonnées (73,116) etat cherche
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 1 coordonnées (69,108) etat cherche
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 2 coordonnées (65,99) etat cherche
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat arret
+turtle1 arc:-9272 de (73,116) fin (64,89) place [(73,116):false, (69,108):false, (65,99):false, (64,89):true] true 3 coordonnées (64,89) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 3 coordonnées (64,89) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 2 coordonnées (81,91) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 1 coordonnées (87,89) etat vadrouille
+turtle1 arc:-9388 de (91,88) fin (64,89) place [(91,88):false, (87,89):false, (81,91):false, (64,89):false] false 0 coordonnées (91,88) etat vadrouille
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 0 coordonnées (91,88) etat vadrouille
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 1 coordonnées (91,95) etat vadrouille
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 2 coordonnées (92,104) etat vadrouille
+turtle1 arc:-9198 de (91,88) fin (94,112) place [(91,88):false, (91,95):false, (92,104):false, (94,112):false] true 3 coordonnées (94,112) etat cherche
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 0 coordonnées (94,112) etat cherche
+turtle1 arc:-9180 de (94,112) fin (89,137) place [(94,112):false, (89,137):false] true 1 coordonnées (89,137) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] true 0 coordonnées (89,137) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] true 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 1 coordonnées (53,195) etat cherche
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 0 coordonnées (43,202) etat cherche
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 1 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 2 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 1 coordonnées (20,238) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 0 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 1 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 1 coordonnées (27,179) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 0 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 1 coordonnées (31,186) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 1 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 2 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 1 coordonnées (20,238) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 0 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 1 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat arret
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 2 coordonnées (21,171) etat vadrouille
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 1 coordonnées (27,179) etat vadrouille
+turtle1 arc:-9554 de (31,186) fin (21,171) place [(31,186):false, (27,179):false, (21,171):true] false 0 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 0 coordonnées (23,200) etat vadrouille
+turtle1 arc:-9166 de (8,182) fin (23,200) place [(8,182):false, (23,200):true] false 1 coordonnées (23,200) etat vadrouille
+turtle1 arc:-9166 de (8,182) fin (23,200) place [(8,182):false, (23,200):true] false 0 coordonnées (8,182) etat vadrouille
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 0 coordonnées (8,182) etat vadrouille
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 1 coordonnées (7,170) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] true 2 coordonnées (10,156) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 0 coordonnées (10,156) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 1 coordonnées (7,139) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 2 coordonnées (8,133) etat cherche
+turtle1 arc:-9140 de (10,156) fin (12,120) place [(10,156):false, (7,139):true, (8,133):false, (12,120):false] true 3 coordonnées (12,120) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 4 coordonnées (12,120) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 3 coordonnées (23,125) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 2 coordonnées (54,131) etat cherche
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat arret
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 1 coordonnées (64,132) etat vadrouille
+turtle1 arc:-9989 de (80,135) fin (12,120) place [(80,135):false, (64,132):true, (54,131):false, (23,125):false, (12,120):false] false 0 coordonnées (80,135) etat vadrouille
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 1 coordonnées (80,135) etat vadrouille
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] false 0 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 2 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 1 coordonnées (55,162) etat vadrouille
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] false 0 coordonnées (37,158) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 4 coordonnées (37,158) etat vadrouille
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 3 coordonnées (27,156) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 2 coordonnées (17,154) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 1 coordonnées (14,154) etat cherche
+turtle1 arc:-9170 de (10,156) fin (37,158) place [(10,156):false, (14,154):false, (17,154):true, (27,156):false, (37,158):false] false 0 coordonnées (10,156) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] false 2 coordonnées (10,156) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] false 1 coordonnées (7,170) etat cherche
+turtle1 arc:-9344 de (8,182) fin (10,156) place [(8,182):false, (7,170):false, (10,156):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9166 de (8,182) fin (23,200) place [(8,182):false, (23,200):true] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9166 de (8,182) fin (23,200) place [(8,182):false, (23,200):true] true 1 coordonnées (23,200) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat arret
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] true 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9590 de (53,195) fin (31,186) place [(53,195):false, (31,186):false] false 0 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9034 de (43,202) fin (53,195) place [(43,202):false, (53,195):false] false 0 coordonnées (43,202) etat vadrouille
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 0 coordonnées (43,202) etat vadrouille
+turtle1 arc:-9571 de (43,202) fin (31,186) place [(43,202):false, (31,186):false] true 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 1 coordonnées (31,186) etat vadrouille
+turtle1 arc:-9232 de (23,200) fin (31,186) place [(23,200):false, (31,186):true] false 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 0 coordonnées (23,200) etat cherche
+turtle1 arc:-9630 de (23,200) fin (48,233) place [(23,200):false, (48,233):false] true 1 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 2 coordonnées (48,233) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 1 coordonnées (20,238) etat cherche
+turtle1 arc:-9412 de (13,240) fin (48,233) place [(13,240):false, (20,238):false, (48,233):false] false 0 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 1 coordonnées (13,240) etat cherche
+turtle1 arc:-9024 de (8,182) fin (13,240) place [(8,182):false, (13,240):false] false 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 0 coordonnées (8,182) etat cherche
+turtle1 arc:-9062 de (8,182) fin (21,171) place [(8,182):false, (21,171):false] true 1 coordonnées (21,171) etat cherche
+turtle1 arc:-9734 de (21,171) fin (37,158) place [(21,171):false, (37,158):false] true 0 coordonnées (21,171) etat cherche
+turtle1 arc:-9734 de (21,171) fin (37,158) place [(21,171):false, (37,158):false] true 1 coordonnées (37,158) etat cherche
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 0 coordonnées (37,158) etat cherche
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 1 coordonnées (55,162) etat cherche
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat arret
+turtle1 arc:-9600 de (37,158) fin (67,164) place [(37,158):false, (55,162):false, (67,164):true] true 2 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 0 coordonnées (67,164) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] true 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] false 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] false 0 coordonnées (80,199) etat vadrouille
+turtle1 arc:-9074 de (98,203) fin (80,199) place [(98,203):false, (80,199):true] false 1 coordonnées (80,199) etat vadrouille
+turtle1 arc:-9074 de (98,203) fin (80,199) place [(98,203):false, (80,199):true] false 0 coordonnées (98,203) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 3 coordonnées (98,203) etat vadrouille
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 2 coordonnées (110,205) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 1 coordonnées (120,207) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] false 0 coordonnées (134,210) etat cherche
+turtle1 arc:-9300 de (132,221) fin (134,210) place [(132,221):false, (134,210):true] false 1 coordonnées (134,210) etat cherche
+turtle1 arc:-9300 de (132,221) fin (134,210) place [(132,221):false, (134,210):true] false 0 coordonnées (132,221) etat cherche
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] false 2 coordonnées (132,221) etat cherche
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] false 1 coordonnées (130,231) etat cherche
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] false 0 coordonnées (127,242) etat cherche
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] true 0 coordonnées (127,242) etat cherche
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] true 1 coordonnées (157,247) etat cherche
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] true 2 coordonnées (163,249) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 7 coordonnées (163,249) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 6 coordonnées (175,251) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 5 coordonnées (184,253) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 4 coordonnées (197,255) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 3 coordonnées (207,245) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 2 coordonnées (212,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 1 coordonnées (213,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 1 coordonnées (213,231) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 2 coordonnées (198,232) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat vadrouille
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 4 coordonnées (178,235) etat vadrouille
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 5 coordonnées (167,232) etat vadrouille
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 0 coordonnées (167,232) etat vadrouille
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 1 coordonnées (163,249) etat vadrouille
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 7 coordonnées (163,249) etat vadrouille
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 6 coordonnées (175,251) etat vadrouille
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 5 coordonnées (184,253) etat vadrouille
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 4 coordonnées (197,255) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 3 coordonnées (207,245) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 2 coordonnées (212,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 1 coordonnées (213,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9136 de (224,246) fin (232,237) place [(224,246):false, (232,237):true] true 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9136 de (224,246) fin (232,237) place [(224,246):false, (232,237):true] true 1 coordonnées (232,237) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] true 0 coordonnées (232,237) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] true 1 coordonnées (239,228) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] true 2 coordonnées (250,217) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] false 2 coordonnées (250,217) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] false 1 coordonnées (239,228) etat cherche
+turtle1 arc:-10702 de (232,237) fin (250,217) place [(232,237):false, (239,228):false, (250,217):false] false 0 coordonnées (232,237) etat cherche
+turtle1 arc:-9296 de (214,212) fin (232,237) place [(214,212):false, (215,215):false, (225,228):false, (232,237):true] false 3 coordonnées (232,237) etat cherche
+turtle1 arc:-9296 de (214,212) fin (232,237) place [(214,212):false, (215,215):false, (225,228):false, (232,237):true] false 2 coordonnées (225,228) etat cherche
+turtle1 arc:-9296 de (214,212) fin (232,237) place [(214,212):false, (215,215):false, (225,228):false, (232,237):true] false 1 coordonnées (215,215) etat cherche
+turtle1 arc:-9296 de (214,212) fin (232,237) place [(214,212):false, (215,215):false, (225,228):false, (232,237):true] false 0 coordonnées (214,212) etat cherche
+turtle1 arc:-9308 de (213,212) fin (214,212) place [(213,212):false, (214,212):false] false 1 coordonnées (214,212) etat cherche
+turtle1 arc:-9308 de (213,212) fin (214,212) place [(213,212):false, (214,212):false] false 0 coordonnées (213,212) etat cherche
+turtle1 arc:-10705 de (213,212) fin (197,222) place [(213,212):false, (213,211):false, (197,222):false] true 0 coordonnées (213,212) etat cherche
+turtle1 arc:-10705 de (213,212) fin (197,222) place [(213,212):false, (213,211):false, (197,222):false] true 1 coordonnées (213,211) etat cherche
+turtle1 arc:-10705 de (213,212) fin (197,222) place [(213,212):false, (213,211):false, (197,222):false] true 2 coordonnées (197,222) etat cherche
+turtle1 arc:-9082 de (197,222) fin (169,217) place [(197,222):false, (181,219):true, (169,217):false] true 0 coordonnées (197,222) etat cherche
+turtle1 arc:-9082 de (197,222) fin (169,217) place [(197,222):false, (181,219):true, (169,217):false] true 1 coordonnées (181,219) etat cherche
+turtle1 arc:-9082 de (197,222) fin (169,217) place [(197,222):false, (181,219):true, (169,217):false] true 2 coordonnées (169,217) etat cherche
+turtle1 arc:-9348 de (169,217) fin (167,232) place [(169,217):false, (167,232):false] true 0 coordonnées (169,217) etat cherche
+turtle1 arc:-9348 de (169,217) fin (167,232) place [(169,217):false, (167,232):false] true 1 coordonnées (167,232) etat cherche
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 0 coordonnées (167,232) etat cherche
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 1 coordonnées (163,249) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 7 coordonnées (163,249) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 6 coordonnées (175,251) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 5 coordonnées (184,253) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 4 coordonnées (197,255) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 3 coordonnées (207,245) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 2 coordonnées (212,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 1 coordonnées (213,244) etat cherche
+turtle1 arc:-9360 de (224,246) fin (163,249) place [(224,246):false, (213,244):true, (212,244):false, (207,245):false, (197,255):false, (184,253):false, (175,251):false, (163,249):false] false 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 0 coordonnées (224,246) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 1 coordonnées (213,231) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 2 coordonnées (198,232) etat cherche
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat arret
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 3 coordonnées (188,237) etat vadrouille
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 4 coordonnées (178,235) etat vadrouille
+turtle1 arc:-9194 de (224,246) fin (167,232) place [(224,246):false, (213,231):false, (198,232):false, (188,237):true, (178,235):false, (167,232):false] true 5 coordonnées (167,232) etat vadrouille
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 0 coordonnées (167,232) etat vadrouille
+turtle1 arc:-9494 de (167,232) fin (163,249) place [(167,232):false, (163,249):false] true 1 coordonnées (163,249) etat vadrouille
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] false 2 coordonnées (163,249) etat vadrouille
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] false 1 coordonnées (157,247) etat vadrouille
+turtle1 arc:-9392 de (127,242) fin (163,249) place [(127,242):false, (157,247):false, (163,249):false] false 0 coordonnées (127,242) etat vadrouille
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] true 0 coordonnées (127,242) etat cherche
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] true 1 coordonnées (130,231) etat cherche
+turtle1 arc:-9907 de (127,242) fin (132,221) place [(127,242):false, (130,231):false, (132,221):false] true 2 coordonnées (132,221) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 5 coordonnées (132,221) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 4 coordonnées (125,219) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 3 coordonnées (117,218) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 2 coordonnées (103,215) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 1 coordonnées (101,225) etat cherche
+turtle1 arc:-9288 de (98,236) fin (132,221) place [(98,236):false, (101,225):false, (103,215):false, (117,218):false, (125,219):false, (132,221):false] false 0 coordonnées (98,236) etat cherche
+turtle1 arc:-9072 de (90,270) fin (98,236) place [(90,270):false, (98,236):false] false 1 coordonnées (98,236) etat cherche
+turtle1 arc:-9072 de (90,270) fin (98,236) place [(90,270):false, (98,236):false] false 0 coordonnées (90,270) etat cherche
+turtle1 arc:-9072 de (90,270) fin (98,236) place [(90,270):false, (98,236):false] true 0 coordonnées (90,270) etat cherche
+turtle1 arc:-9072 de (90,270) fin (98,236) place [(90,270):false, (98,236):false] true 1 coordonnées (98,236) etat cherche
+turtle1 arc:-8994 de (98,236) fin (81,232) place [(98,236):false, (81,232):false] true 0 coordonnées (98,236) etat cherche
+turtle1 arc:-8994 de (98,236) fin (81,232) place [(98,236):false, (81,232):false] true 1 coordonnées (81,232) etat cherche
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat arret
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 2 coordonnées (81,232) etat vadrouille
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 1 coordonnées (79,232) etat vadrouille
+turtle1 arc:-9238 de (73,231) fin (81,232) place [(73,231):false, (79,232):false, (81,232):true] false 0 coordonnées (73,231) etat vadrouille
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] true 0 coordonnées (73,231) etat vadrouille
+turtle1 arc:-9254 de (73,231) fin (80,199) place [(73,231):false, (80,199):false] true 1 coordonnées (80,199) etat vadrouille
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] true 0 coordonnées (80,199) etat vadrouille
+turtle1 arc:-9638 de (80,199) fin (53,195) place [(80,199):false, (53,195):false] true 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 1 coordonnées (53,195) etat vadrouille
+turtle1 arc:-9594 de (67,164) fin (53,195) place [(67,164):false, (53,195):true] false 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 0 coordonnées (67,164) etat cherche
+turtle1 arc:-9096 de (67,164) fin (80,135) place [(67,164):false, (80,135):false] true 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 1 coordonnées (80,135) etat cherche
+turtle1 arc:-9987 de (89,137) fin (80,135) place [(89,137):false, (80,135):false] false 0 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 2 coordonnées (89,137) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 1 coordonnées (92,138) etat cherche
+turtle1 arc:-9985 de (100,139) fin (89,137) place [(100,139):false, (92,138):false, (89,137):true] false 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 0 coordonnées (100,139) etat cherche
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat arret
+turtle1 arc:-9002 de (100,139) fin (100,171) place [(100,139):false, (100,171):true] true 1 coordonnées (100,171) etat vadrouille
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 0 coordonnées (100,171) etat vadrouille
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] true 1 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 0 coordonnées (114,174) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 1 coordonnées (126,176) etat vadrouille
+turtle1 arc:-9030 de (114,174) fin (140,179) place [(114,174):false, (126,176):true, (140,179):false] true 2 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] true 0 coordonnées (140,179) etat vadrouille
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] true 1 coordonnées (141,179) etat vadrouille
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] true 2 coordonnées (161,184) etat cherche
+turtle1 arc:-9328 de (140,179) fin (162,184) place [(140,179):false, (141,179):true, (161,184):false, (162,184):false] true 3 coordonnées (162,184) etat cherche
+turtle1 arc:-9386 de (156,214) fin (162,184) place [(156,214):false, (162,184):true] false 1 coordonnées (162,184) etat cherche
+turtle1 arc:-9386 de (156,214) fin (162,184) place [(156,214):false, (162,184):true] false 0 coordonnées (156,214) etat cherche
+turtle1 arc:-9522 de (156,214) fin (134,210) place [(156,214):false, (134,210):false] true 0 coordonnées (156,214) etat cherche
+turtle1 arc:-9522 de (156,214) fin (134,210) place [(156,214):false, (134,210):false] true 1 coordonnées (134,210) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 0 coordonnées (134,210) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 1 coordonnées (120,207) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 2 coordonnées (110,205) etat cherche
+turtle1 arc:-9380 de (134,210) fin (98,203) place [(134,210):false, (120,207):false, (110,205):false, (98,203):false] true 3 coordonnées (98,203) etat cherche
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 1 coordonnées (98,203) etat cherche
+turtle1 arc:-9414 de (103,194) fin (98,203) place [(103,194):false, (98,203):true] false 0 coordonnées (103,194) etat cherche
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] false 1 coordonnées (103,194) etat cherche
+turtle1 arc:-9148 de (107,187) fin (103,194) place [(107,187):false, (103,194):false] false 0 coordonnées (107,187) etat cherche
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 2 coordonnées (107,187) etat cherche
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 1 coordonnées (108,184) etat cherche
+turtle1 arc:-9402 de (114,174) fin (107,187) place [(114,174):false, (108,184):false, (107,187):false] false 0 coordonnées (114,174) etat cherche
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat arret
+turtle1 arc:-9306 de (100,171) fin (114,174) place [(100,171):false, (114,174):true] false 1 coordonnées (114,174) etat vadrouille

@@ -1,0 +1,31 @@
+PB : il doit sauter des places et ne pas toujours regardée si place.
+
+
+temps : 8
+place regardée :-9036:100000.0:false  turtle1:13
+place conservée :-9036:100000.0:false ma distance :13
+turtle1 arc courant : -9054 de (129,82) fin (151,75) place [(129,82):false, (135,78):false, (140,77):true, (144,76):false, (151,75):false] true 0 coordonnées (129,82) etat versPlace
+cible: n°-9036(129,82) direction [-9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true]]
+temps : 9
+-9036:100000.0:false est dans liste blanche [-9036:5.0:true]
+place regardée :-9036:5.0:true  turtle1:1
+place conservée :-9036:5.0:true ma distance :1
+turtle1 arc courant : -9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true] false 2 coordonnées (129,82) etat versPlace
+cible: n°-9036(129,82) direction []
+temps : 10
+turtle1 arc courant : -9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true] false 1 coordonnées (113,71) etat versPlace
+cible: n°-9036(129,82) direction []
+temps : 11
+turtle1 arc courant : -9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true] false 0 coordonnées (108,69) etat versPlace
+cible: n°-9036(129,82) direction []
+temps : 12
+turtle1 arc courant : -9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true] true 0 coordonnées (108,69) etat versPlace
+cible: n°-9036(129,82) direction []
+temps : 13
+-9036:100000.0:false est dans liste noire [-9036:100000.0:false]
+place regardée :-9154:6.0:true  turtle1:8
+place regardée :-10312:4.0:true  turtle1:12
+place regardée :-9224:17.0:true  turtle1:50
+turtle1 arc courant : -9036 de (108,69) fin (129,82) place [(108,69):false, (113,71):false, (129,82):true] true 1 coordonnées (113,71) etat cherche
+cible: null direction []
+temps : 14

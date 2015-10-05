@@ -34,10 +34,9 @@ public class Place implements Comparator<Place> {
 	}
 
 	public boolean equals(Object p) {
-		return ((p instanceof Place)
-				&& (this.getCoordonnees().getX() == ((Place) p)
-						.getCoordonnees().getX()) && (this.getCoordonnees()
-				.getY() == ((Place) p).getCoordonnees().getY()));
+		return (//(p instanceof Place) &&
+				(this.getCoordonnees().getX() == ((Place) p).getCoordonnees().getX())
+				&& (this.getCoordonnees().getY() == ((Place) p).getCoordonnees().getY()));
 	}
 
 	public String toString() {

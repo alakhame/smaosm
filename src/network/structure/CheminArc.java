@@ -25,4 +25,8 @@ public class CheminArc {
 	public double getParcouru() {
 		return parcouru;
 	}
+	
+	public String toString(){
+		return arc + " : " + parcouru;
+	}
 }

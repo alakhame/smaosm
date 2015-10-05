@@ -12,6 +12,15 @@ public class Arc {
 	private int nbrePlaces = 0;
 	private int nbrepositionplace = 1;
 
+	public boolean equals(Arc a){
+		return (debut.equals(a.debut) && fin.equals(a.fin));
+	}
+	
+	public boolean estExtremite(Coordonnees c){
+// retourne vraie si la c correspond à debut ou fin
+		return debut.equals(c) || fin.equals(c);
+	}
+	
 	public Arc(ArrayList<Coordonnees> coord, int id) {
 		order = Reseau.arcCount();
 		debut = coord.get(0);
@@ -54,7 +63,8 @@ public class Arc {
 		return null;
 	}
 
-	public double longeurArc() {
+// longueur selon la distance euclidienne
+/*	public double longeurArc() {
 		double longueur = 0.0;
 		for (int k = 0; k < pointsArc.size() - 1; k++) {
 			longueur += Math
@@ -70,7 +80,12 @@ public class Arc {
 	public void setDebut(Coordonnees d) {
 		debut = d;
 	}
-
+*/
+	public double longueurArc() {
+// la longueur d'un arc est égale à sa taille en nombre de positions. 
+		return this.pointsArc.size();
+	}
+	
 	public Coordonnees getFin() {
 		return fin;
 	}
@@ -100,6 +115,25 @@ public class Arc {
 	public boolean isPositionPlace(int pos) {
 		return pointsArc.get(pos).place;
 	}
+	
+	public boolean contientPlace(){
+		boolean b = false;
+		for (int i =0; i<pointsArc.size(); i++){
+			if (isPositionPlace(i))
+				return true;
+		}
+		return false;
+	}
+	
+	public Coordonnees getPlace(){
+		for (int i =0; i<pointsArc.size(); i++){
+			if (isPositionPlace(i))
+				return pointsArc.get(i).position;
+		}
+		return null;
+	
+	}
+
 
 	public void setPointsArc(ArrayList<Coordonnees> p) {
 		int i = 0;
@@ -127,7 +161,7 @@ public class Arc {
 		return nbrePlaces;
 	}
 
-	public void minimiserPlace() {
+	public void diminuerPlace() {
 		nbreplaceslibres--;
 	}
 
@@ -136,8 +170,10 @@ public class Arc {
 	}
 
 	public String toString() {
-		return idArc + " de " + debut + " fin " + fin;
+		return idArc + " de " + debut + " fin " + fin + " place " + pointsArc;
 	}
+	
+	
 
 	public class PositionStationnement {
 		Coordonnees position;
@@ -147,6 +183,23 @@ public class Arc {
 			position = cord;
 			place = false;
 		}
+		public String toString(){
+			return position.toString() + ":" + place;
+		}
 	}
 
+
+
+	public int getPositionPlacePossible() {
+		int j = 0;
+		while (j< pointsArc.size()){
+			if (pointsArc.get(j).place)
+				return j;
+			j++;
+		}
+		return 0; // position par defaut
+	}
 }
+		
+
+

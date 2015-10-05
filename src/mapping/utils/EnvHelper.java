@@ -29,7 +29,8 @@ public class EnvHelper {
 	public EnvHelper() {
 		try {
 			Class.forName("org.postgresql.Driver");
-			cnx = DriverManager.getConnection("jdbc:postgresql://localhost:5432/test_osm1", "osm", "1234");
+			cnx = DriverManager.getConnection("jdbc:postgresql://localhost:5432/smaosm","postgres", "postgres"); 
+			//cnx = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Esm_correct","postgres", "postgres");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
@@ -42,6 +43,7 @@ public class EnvHelper {
 		EnvHelper e = new EnvHelper();
 		e.genEnv();
 		for (Arc a : Reseau.listeArc) {
+			System.out.println(a);
 			Long h = (long) a.getId();
 			if (Reseau.arcLies.get(h).size()==1 ) {
 				System.out.println(h + " ++ " + Reseau.arcLies.get(h));
@@ -77,24 +79,26 @@ public class EnvHelper {
 		for (Long w : EnvHelper.validWays) {
 			Arc a = getArcFromWayId(w);
 			if (a != null) {
-
-				HashSet<Integer> listSuiv = new HashSet<Integer>();
 				Reseau.listeArc.add(a);
-				HashSet<Integer> foll = getFollowingWays(w);
-				if (foll != null) {
-					listSuiv.addAll(foll);
-					for (Integer wy : foll) {
-						if (getFollowingWays(wy.longValue()) != null)
-							listSuiv.addAll(getFollowingWays(wy.longValue()));
-					}
-					Reseau.arcLies.put(w, listSuiv);
-				} else {
-					listSuiv.add(w.intValue());
-					Reseau.arcLies.put(w, listSuiv);
+			} // je créée tous les arcs.
+		}
+			createArcLiee();
+	}
+		public void createArcLiee(){
+			
+			for (Arc a : Reseau.listeArc){
+				HashSet<Integer> listSuiv = new HashSet<Integer>();
+				for (Arc b : Reseau.listeArc){
+					if ( (a.getDebut().equals(b.getDebut())) ||
+						 (a.getDebut().equals(b.getFin())) ||	
+						 (a.getFin().equals(b.getDebut())) ||
+						 (a.getFin().equals(b.getFin()))
+						)
+						listSuiv.add(b.getId());
 				}
+				Reseau.arcLies.put(((Integer)a.getId()).longValue(), listSuiv);
 			}
 		}
-	}
 
 	public boolean isWithinLimits(long wayId) throws SQLException {
 		String req = "SELECT * FROM way_nodes WHERE way_id =" + wayId;

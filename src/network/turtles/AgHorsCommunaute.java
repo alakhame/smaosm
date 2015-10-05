@@ -1,6 +1,7 @@
 package network.turtles;
 
 import java.awt.Color;
+
 import network.structure.Place;
 import network.structure.Reseau;
 
@@ -12,8 +13,6 @@ public class AgHorsCommunaute extends TurtleNetWorkTurtle {
 
 	String myCommunity = "horscommunaute";
 	String myGroup = "membre";
-	String myRole = "horsstaionnement";
-	boolean ajoutDemande;
 
 	// int tempsrecherche=0;
 	public AgHorsCommunaute(String s) {
@@ -33,39 +32,39 @@ public class AgHorsCommunaute extends TurtleNetWorkTurtle {
 		state = ts;
 		switch (state) {
 		case arret:
-			setColor(Color.white);
+			setColor(Color.white); 
 			break;
 		case cherche:
-			setColor(Color.yellow);
-			break;
-		case versPlace:
-			setColor(Color.yellow);
+			setColor(Color.yellow); 
 			break;
 		case vadrouille:
-			setColor(Color.pink);
+			setColor(Color.cyan);  
 			break;
-		case attentePlace : setColor(Color.blue);break;
 		}
 		
 	}
 
 	public String lancement() {
+		initialisation();
 		createGroup(true, myCommunity, myGroup, null, null);
 		setState(TurtleState.vadrouille); 
 		cr.setArcCourant(Reseau.getArcDebut());
-		position = Reseau.getPositionDebut(cr.getArcCourant());
+		position = Reseau.getPositionInitialisation(cr.getArcCourant());
 		setXY(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
+		// a effacer
+	//	Reseau.afficheArcLie();
+		//
 		return "live";
 	}
 
 	public String lancementb() {
 		createGroup(true, myCommunity, myGroup, null, null);
-		
+		initialisation();
 		cr.setArcCourant(Reseau.getArcDebut());
-		position = Reseau.getPositionDebut(cr.getArcCourant());
-		if(cr.getArcCourant().getOrder()%2==0)
+		position = Reseau.getPositionInitialisation(cr.getArcCourant());
+		if(cr.getArcCourant().contientPlace())
 		while (!cr.getArcCourant().isPositionPlace(position))
-			position = Reseau.getPositionDebut(cr.getArcCourant());
+			position = Reseau.getPositionInitialisation(cr.getArcCourant());
 		setXY(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
 		Place pl = new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position));
 		if (Reseau.containPlaceprise(pl)) {
@@ -73,56 +72,30 @@ public class AgHorsCommunaute extends TurtleNetWorkTurtle {
 		} else {
 			Reseau.placeprisedebut.add(pl);
 			setState(TurtleState.arret); // etat=0;
+//			Reseau.incNbreStationnementsHC();
 		}
 		return "live";
 	}
+		
+	@Override
+	public void tr_cherche_arret() {
+		setState(TurtleState.arret);
+		Reseau.incNbreStationnementsHC();
+		setGare(true);
+//		System.out.println(this.getName() + " : " + cr.getArcCourant() + " : " + cr.getArcCourant().getPositionArc(position));
+// A decommenter??:	 	Reseau.incNbreCycleTotalhorscommunaute(cycleCherche);
+//		cycleCherche = 0;
+	}
+
+	@Override
+	protected void miseAjourDemande() {
+		Reseau.incNbredemandeTotalHC(this);
+	}
+	
 
 	public String live() {
-		while (true) {
-			step++;
-			if (Reseau.getStep() != step)
-				Reseau.setStep(step);
-			if (state == TurtleState.arret) {
-				if (cycleArret > Reseau.nbreCycleOccupationPlace) {
-					setState(TurtleState.vadrouille); 
-					cycleArret = 0;
-				} else
-					cycleArret++;
-				//checkKill();
-			} else if ((state == TurtleState.vadrouille) || (state == TurtleState.cherche)) {
-				boolean vadrouilleToCherche=false,vadrouille=false;
-				if (state == TurtleState.cherche) {
-					cycleRecherche++;
-					Reseau.tempsrecherchehorscommunaute++;
-				}else if(state == TurtleState.vadrouille){
-					vadrouille=true;
-				}
-				circuler();
-				if (state == TurtleState.arret) {// if(etat==0)
-					Reseau.tempsrecherchehorscommunaute +=1;
-					changementStationner();
-				}else if(state == TurtleState.cherche){
-					vadrouilleToCherche=true;
-				}
-				
-				if(vadrouille && vadrouilleToCherche){
-					Reseau.nbredemandehorscommunaute++;
-					cycleRecherche++;
-				}
-
-			}
-			return "live";
-		}
-
-	}
-
-	public void changementStationner() {
-		setState(TurtleState.arret);
-		if (step > 1) {
-		 	Reseau.tempsrecherchehorscommunaute += cycleRecherche;
-			//Reseau.nbredemandehorscommunaute ++;
-		}
-		cycleRecherche = 0;
-	}
+		circuler();
+		return "live";
+}
 
 }

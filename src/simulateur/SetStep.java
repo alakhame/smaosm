@@ -1,8 +1,8 @@
 package simulateur;
 
-import turtlekit.kernel.ControlScheduler;
+//import turtlekit.kernel.ControlScheduler;
 
-public class SetStep implements ControlScheduler{
+public class SetStep {//implements ControlScheduler{
     private int step = 0;
     private int max;
 	public int getMax() {
@@ -17,14 +17,15 @@ public class SetStep implements ControlScheduler{
 		max = nbStep;
 	}
 
-	@Override
+//@Override
 	public boolean isFinish() {
 		return  (step >= max);
 	}
 
-	@Override
+//	@Override
 	public void nextStep() {
 		step++;
+//		System.out.println(step);
 	}
 
 }

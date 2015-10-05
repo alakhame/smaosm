@@ -1,6 +1,6 @@
 package graphics;
 
-import approche.locale.turtles.AssistantApprocheLocale;
+import approche.locale.turtles.AssistantApprocheLocaleFull;
 import network.structure.Reseau;
 import turtlekit.kernel.Observer;
 
@@ -35,11 +35,11 @@ public class ReseauObserver extends Observer {
 		 
 
 		if (param.getName().equals("nbreCycleTotalRecherche")) {
-			plot.addPoint((int) Reseau.nbreCycleTotalRecherche);
+			plot.addPoint((int) Reseau.getNbreCycleTotalRecherche());
 		} else if (param.getName().equals("nbremessageechanges")) {
-			plot.addPoint((int) Reseau.nbremessageechanges);
+			plot.addPoint((int) Reseau.getNbremessageechanges());
 		} else if (param.getName().equals("nbreCycleVadrouilleMin")) {
-			plot.addPoint((int) Reseau.nbreCycleVadrouilleMin);
+			plot.addPoint((int) Reseau.cycleVadrouille);
 		} else if (param.getName().equals("nbreAgHorsCommunaute")) {
 			plot.addPoint((int) Reseau.nbreAgHorsCommunaute);
 		} else if (param.getName().equals("nbreAgCommunaute")) {
@@ -47,13 +47,13 @@ public class ReseauObserver extends Observer {
 		} else if (param.getName().equals("nbrDemandes")) {
 			plot.addPoint((int) Reseau.nbredemandestotales);
 		} else if (param.getName().equals("nbredemandehorscommunaute")) {
-			plot.addPoint((int) Reseau.nbredemandehorscommunaute);
+			plot.addPoint((int) Reseau.getNbredemandeTotalHC());
 		} else if (param.getName().equals("tempsrecherchehorscommunaute")) {
-			plot.addPoint((int) Reseau.tempsrecherchehorscommunaute);
+			plot.addPoint((int) Reseau.getNbreCycleTotalHC());
 		} else if (param.getName().equals("nbrMessageCentalise")) {
-			plot.addPoint((int) AssistantApprocheLocale.nbMessageCentralise);
+			plot.addPoint((int) AssistantApprocheLocaleFull.nbMessageCentralise);
 		} else if (param.getName().equals("nbreCycleOccupationPlace")) {
-			plot.addPoint((int) Reseau.nbreCycleOccupationPlace);
+			plot.addPoint((int) Reseau.cycleStationnement);
 		} else if (param.getName().equals("tempsMoyenRechHC")) {
 			plot.addPoint((int) Reseau.tempsMoyenRechHC());
 		} else if (param.getName().equals("tempsMoyenRech")) {

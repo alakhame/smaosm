@@ -1,38 +1,43 @@
 package network.turtles;
 
-import java.awt.Color;
-
-import approche.locale.turtles.AssistantApprocheLocale;
 import network.structure.*;
-import network.turtles.AgHorsCommunaute;
 import network.turtles.TurtleNetWorkTurtle;
 import turtlekit.kernel.Turtle;
 
-public class TurtleNetWorkTurtle extends Turtle {
+public abstract class TurtleNetWorkTurtle extends Turtle {
 	public CalculReseau cr;
-	public int nbredemande = 0;
-	public int nbrenotif = 0;
-	public Place placeChoisie;
-	public int step;
 	public int cycleArret = 0;
-	public int cycleRecherche = 0;
+//à decommenter si gestion individuelle du temps de recherche
+//	public int cycleCherche = 0;
+	public int cycleVadrouille = 0;
+// valeur de comportement propre à chaque agent
+	protected int tempsStationnement;
+	protected int tempsVadrouille;
 	public boolean sens;
 	public boolean print = false;
 	public int position;
-	public int cycleVadrouille = 0;
 	private static final long serialVersionUID = 1L;
 	public TurtleState state;
+	protected boolean gare = false;
+
+	public boolean isGare() {
+		return gare;
+	}
+
+	public void setGare(boolean gare) {
+		//this.gare = gare;
+	}
 
 	public TurtleNetWorkTurtle(String s, boolean print) {
 		super(s);
 		cr = new CalculReseau(this);
 		this.print = print;
+		tempsStationnement = Reseau.getTempsOccupation();
+		tempsVadrouille = Reseau.getTempsVadrouille();
 	}
 
 	public TurtleNetWorkTurtle(String s) {
-		super(s);
-		this.print = true;
-		cr = new CalculReseau(this);
+		this(s, true);
 	}
 
 	public TurtleNetWorkTurtle() {
@@ -45,304 +50,205 @@ public class TurtleNetWorkTurtle extends Turtle {
 	}
 
 	public void println(String m) {
-		if (print)
-			super.println(m);
+	//	if (!print)
+	//		super.println(m);
 	}
+	
+	public void trace(){
 
-	public void initialisation() {
-		step = 0;
-		cycleRecherche = 0;
+	/*	if (this.getName().equals("turtle1")){
+		System.out.println(cr.getArcCourant() + " "+ sens + " " + position + ":" + cr.getArcCourant().getPositionArc(position) + " etat " + this.state);
+		}
+	*/	
+	}
+// remise à zéro lorsque l'agent repart
+	protected void initialisation() {
+//		cycleCherche = 0;
 		cycleArret = 0;
 		cycleVadrouille = 0;
 		sens = true;
 	}
+// modification de l'état de l'agent
+	public abstract void setState(TurtleState ts);
 
-	public void setState(TurtleState ts) {
-		state = ts;
-		switch (state) {
-		case arret:
-			setColor(Color.red);
-			break;
-		case cherche:
-			setColor(Color.blue);
-			break;
-		case versPlace:
-			setColor(Color.blue);
-			break;
-		case vadrouille:
-			setColor(Color.green);
-			break;
-		case attentePlace:
-			setColor(Color.blue);
-			break;
+
+	private void avancer(int x, int y){
+		moveTo(x,y);
+	}
+
+	protected void circuler(){
+// définie mon nouvel état
+		nouvelleEtat();
+		if (state != TurtleState.arret){
+			nouvellePosition();
+			avancer(cr.getArcCourant().getPositionArc(position).getX(),
+					cr.getArcCourant().getPositionArc(position).getY());
 		}
 	}
-
-	/*
-	 * Initialisation : si la place choisie au hasard est prise il est en
-	 * vadrouille sinon à l'arrêt
-	 */
-	public String debutStationner() {
-		initialisation();
-		position = Reseau.getPositionDebut(cr.getArcCourant());
-		if(cr.getArcCourant().getOrder()%2==0)
-		while (!cr.getArcCourant().isPositionPlace(position))
-			position = Reseau.getPositionDebut(cr.getArcCourant());
-		
-		setXY(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
-		Place pl = new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position));
-		if (Reseau.containPlaceprise(pl)) {
-			setState(TurtleState.vadrouille);
-		} else {
-			Reseau.placeprisedebut.add(pl);
-			Reseau.diminuerPlaceArc(cr.getArcCourant());
-			placeChoisie = pl;
-			changementStationner();
-		}
-		return ("live");
-	}
-
-	/*
-	 * initialisation : en appelant cette méthode, l'agent circule au début de
-	 * son execution
-	 */
-	public String debutCirculer() {
-		setState(TurtleState.vadrouille); 
-		initialisation();
-		position = Reseau.getPositionDebut(cr.getArcCourant());
-		setXY(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
-		return "live";
-	}
-
-	/*
-	 * passe de l'état arret à l'état vadrouille
-	 */
-	public void changementLiberer() {
-		setState(TurtleState.vadrouille); 
-		Reseau.libererPlaceArc(cr.getArcCourant());
-		placeChoisie = null;
-		cycleArret = 0;
-		cycleVadrouille = 0;
-	}
-
-	/*
-	 * passe à l'état arret. sauf pour le premier pas (?) cela ajoute une
-	 * demande : on suppose que l'agent venait de faire une demande
-	 */
-	public void changementStationner() {
-		setState(TurtleState.arret);
-		AssistantApprocheLocale.incNbMessageCentralise();
-		if (step > 1) {
-			nbredemande++;
-			Reseau.nbreStationnements++;
-			Reseau.diminuerPlaceArc(cr.getArcCourant());
-			Reseau.setNbredemandes();
-			Reseau.setNbreCycleTotalRecherche(cycleRecherche);
-		}
-		cycleRecherche = 0;
-	}
-
 	/*
 	 * agent se déplace et choisi son prochain arc. attentePlace => arret (si
 	 * placeLibre) vadrouille => cherche si nbreCycle correct
 	 */
-	public void circuler() {
-		if ((cr.getArcCourant().getPositionArc(position).estEgal(cr.getArcCourant().getFin()) && sens)
-				|| (cr.getArcCourant().getPositionArc(position).estEgal(cr.getArcCourant().getDebut()) && !sens)) {
-			Arc suiv = Reseau.getArcSuivant(cr.getArcCourant(), sens);
-			Coordonnees posCoord = cr.getArcCourant().getPositionArc(position);
-			if (suiv != null) {
-				if (cr.distanceCoord(posCoord, suiv.getDebut()) >= cr.distanceCoord(posCoord, suiv.getFin())) {
-					position = 0;
-					sens = true;
-				} else {
-					position = suiv.getNbrePlaces() - 1;
-					sens = false;
-				}
-				cr.setArcCourant(suiv);
-			} else {
-				sens = !sens;
-				System.exit(0);
-				
-			}
-		}
-		if (sens){
-			position++;
-		}
-		else {
-			position--;
-		}
-		moveTo(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
-
-		switch (state) {
-			case attentePlace:{
-				if (cr.getArcCourant().isPositionPlace(position)) {
-					int stationne = nbreStationnePosition();
-					if (stationne == 0) {
-						changementStationner();
-						Place plstat = new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position));
-						placeChoisie = plstat;
-					}
-				}
-				break;
-			}
 	
-			case vadrouille:{
-				cycleVadrouille++;
-				if (cycleVadrouille > Reseau.nbreCycleVadrouilleMin) {
-					//Reseau.nbredemandestotales = Reseau.nbredemandestotales + 1;
-					if ((this instanceof AgHorsCommunaute)) Reseau.nbredemandehorscommunaute++;
-					else Reseau.nbredemandestotales++;
-					
-					setState(TurtleState.cherche); 
-					cycleVadrouille = 0;
-				}
-				break;
-			}
-			
-			case cherche:{
-				//Reseau.nbreCycleTotalRecherche+=1;
-				if (cr.getArcCourant().isPositionPlace(position)) {
-					int stationne = nbreStationnePosition();
-					if (stationne == 0) {
-						if (!(this instanceof AgHorsCommunaute)) {
-							changementStationner();
-							//Reseau.nbreCycleTotalRecherche+=1;
-							placeChoisie = new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position));
-						} else {
-							Reseau.tempsrecherchehorscommunaute++;
-							setState(TurtleState.arret);
-						}
-					}
-				}
-				break;
-			}
-		}
+	protected  Arc arcSuivant(){
+		if (sens) // dans le sens des arcs donc à la fin
+			return Reseau.getArcSuivant(cr.getArcCourant(), cr.getArcCourant().getFin());
+		return Reseau.getArcSuivant(cr.getArcCourant(), cr.getArcCourant().getDebut());
 	}
+	
+	protected void nouvellePosition() {
+// je suis arrivé au bout de l'arc	
+		if ((cr.getArcCourant().getPositionArc(position).equals(cr.getArcCourant().getFin()) && sens)
+				|| (cr.getArcCourant().getPositionArc(position).equals(cr.getArcCourant().getDebut()) && !sens)) {
 
-	public boolean avancerplace() {
-		boolean memePlaceChoisie = true;// indique si la place prise est celle
-										// fixée au début ou pas
-		cycleRecherche++;
-		
-		if(cr.getArcCourant().getPositionArc(position)==null){ 
-			System.out.println(position +" ** "+cr.getArcCourant());
-			position=0;
-		}
-			if ((cr.getArcCourant().getPositionArc(position).estEgal(cr.getArcCourant().getFin()) && sens)
-				|| (cr.getArcCourant().getPositionArc(position).estEgal(cr.getArcCourant().getDebut()) && !sens)) {
-			if (cr.getChemin() != null) {
-				if (cr.getChemin().size() != 0) {
-					Arc suiv = cr.getChemin().get(0);
-					Coordonnees posCoord = cr.getArcCourant().getPositionArc(position);
-					if (cr.getArcCourant().getPositionArc(position).estEgal(suiv.getDebut())) {
-						position = 0;
-						sens = true;
-						cr.setArcCourant(suiv);
-						cr.getChemin().remove(0);
-					}
-					else if (cr.getArcCourant().getPositionArc(position).estEgal(suiv.getFin())) {
-						position = suiv.getNbrePlaces() - 1;
-						sens = false;
-						cr.setArcCourant(suiv);
-						cr.getChemin().remove(0);
-					} else {
+			Arc suiv = arcSuivant();			
+//retourne l'arc courant si  le bon arc mais mauvais sens.
+			if (suiv.equals(cr.getArcCourant())){// je reste sur le même arc => demi tour
+						if (sens)
+							position = suiv.getNbrePlaces() - 1;
+						else 
+							position = 0;
 						sens = !sens;
-					}
-				}
-			} else {
-				if (placeChoisie.getIdArc() == cr.getArcCourant().getId())
-					sens = !sens;
+				}else if (sens){ // je suis à la fin de l'arc courant
+						if (cr.getArcCourant().getFin().equals(suiv.getDebut())) {
+							// je suis au debut de l'arc suivant
+							position = 0;
+							sens = true;
+						} else if (cr.getArcCourant().getFin().equals(suiv.getFin())){
+							// je suis à la fin de l'arc suivant
+							position = suiv.getNbrePlaces() - 1;
+							sens = false;
+						} 
+					}else // je suis au debut de l'arc courant
+						if (cr.getArcCourant().getDebut().equals(suiv.getDebut())) {
+							// debut de l'arc suivant
+							position = 0;
+							sens = true;
+						} else if (cr.getArcCourant().getDebut().equals(suiv.getFin())) {
+							// fin de l'arc suivant
+							position = suiv.getNbrePlaces() - 1;
+							sens = false;
+							}
+			cr.setArcCourant(suiv);
+		}else{
+			if (sens)
+				position++;
+			else 
+				position--;
 			}
-		}
-		if (sens)
-			position++;
-		else
-			position--;
-		if(position==-1)
-			position=cr.getArcCourant().getNbrePlaces()-1;
-		
-		if(cr.getArcCourant().getPositionArc(position)==null){ 
-			System.out.println(position +" ** "+cr.getArcCourant());
-			position=0;
-		}
-		moveTo(cr.getArcCourant().getPositionArc(position).getX(), cr.getArcCourant().getPositionArc(position).getY());
-		if (cr.getArcCourant().isPositionPlace(position)) {
-			int stationne = nbreStationnePosition();
-			Place pl = new Place(cr.getArcCourant().getId(), cr.getArcCourant().getPositionArc(position));
-			if (stationne == 0) {
-				changementStationner();
-				if (placeChoisie.getIdArc() == cr.getArcCourant().getId()) {
-					Reseau.utiliserSysteme();
-				}
-				if (placeChoisie.equals(pl)) {
-					memePlaceChoisie = true;
-				}
-				else {
-					placeChoisie = pl;
-					memePlaceChoisie = false;
-				}
-			} else if (placeChoisie.equals(pl)) {
-				nbrenotif++;
-				Reseau.nbrenotification = Reseau.nbrenotification + 1;
-				memePlaceChoisie = false;
-				setState(TurtleState.cherche);
-				//Reseau.nbredemandestotales++;
-			}
-		}
-
-		return memePlaceChoisie;
 	}
+	
+	protected abstract void miseAjourDemande();
+	
+	protected void tr_vadrouille_cherche(){
+		miseAjourDemande(); // met à jour le nombre de demande selon le type d'agents.
+		setState(TurtleState.cherche); // je me met en état de recherche
+		cycleVadrouille = 0;
+//		cycleCherche = 1;
+	}
+	/*
+	* passe de l'état arret à l'état vadrouille
+	* remise à 0 des compteurs
+	*/
+		protected void tr_arret_vadrouille() {
+			setState(TurtleState.vadrouille);
+			Reseau.libererPlaceArc(cr.getArcCourant());
+			cycleArret = 0;
+			cycleVadrouille = 0;
+		}
+		
+		public void tr_vadrouille_vadrouille(){
+			cycleVadrouille++;
+		}
+		
+		public void tr_cherche_cherche(){
+//			cycleCherche++;
+		}
 
+
+		
+		public void tr_arret_arret(){
+			cycleArret++;
+		}
+		/*
+		 * passe à l'état arret. sauf pour le premier pas (?) cela ajoute une
+		 * demande : on suppose que l'agent venait de faire une demande
+		 */
+		protected abstract void tr_cherche_arret(); 
+	
+	/*
+	 * je me suis déplacé, je regarde mon nouvel état et me met à jour
+	 */
+	protected void nouvelleEtat(){ // vadrouille => cherche => arret
+	switch (state) {
+		case vadrouille: {
+			if (cycleVadrouille > tempsVadrouille) {
+				tr_vadrouille_cherche();
+			}else
+				tr_vadrouille_vadrouille();
+			break;
+		}
+
+		case cherche: {
+				Reseau.incNbreCycleTotalhorscommunaute(1,this);
+			// je suis à la position d'une place et c'est libre
+				int i = turtlesHere().length;
+				boolean test = cr.getArcCourant().isPositionPlace(position);
+				String testArc = cr.getArcCourant().toString();
+			if (positionCouranteLibre()) {
+// la place est libre : je me gare
+				if (!cr.getArcCourant().getPlace().equals( cr.getArcCourant().getPositionArc(position))){ System.out.println("pb"); System.exit(0);}
+					tr_cherche_arret();
+				}else
+					tr_cherche_cherche();
+			break;
+			}
+		case arret: {
+			if (cycleArret > tempsStationnement) {
+				tr_arret_vadrouille();
+			} else
+				tr_arret_arret();
+			}
+			break;
+		}
+		trace();
+	}
 	public int nbreStationnePosition() {
 		int nbrestationne = 0;
 		Turtle[] turtlehere = turtlesHere();
 		for (int k = 0; k < turtlehere.length; k++) {
 			if (((TurtleNetWorkTurtle) (turtlehere[k])).state == TurtleState.arret) {
 				nbrestationne++;
+				
 			}
 		}
 		return nbrestationne;
 	}
-
-	public void checkKill(){
-		if(step>Reseau.simTime/4){
-			TurtleNetWorkTurtle al;
-			int ran =(int) (Math.round(Math.random()));
-			if(this instanceof AssistantApprocheLocale){
-				if(ran<1)
-					al= (AssistantApprocheLocale)new AssistantApprocheLocale("debutStationner");
-				else
-					al= (AssistantApprocheLocale)new AssistantApprocheLocale("debutCirculer");
+	
+	public int nbreStationnePositionBis() {
+		int nbrestationne = 0;
+		Turtle[] turtlehere = turtlesHere();
+		for (int k = 0; k < turtlehere.length; k++) {
+			if (((TurtleNetWorkTurtle) (turtlehere[k])).state == TurtleState.arret) {
+				nbrestationne++;
+//				System.out.println("agent déja présent : " + turtlehere[k].getName());
 			}
-			else {
-				if(ran<1)
-					al= (AgHorsCommunaute) new AgHorsCommunaute("lancement");
-				else
-					al= (AgHorsCommunaute) new AgHorsCommunaute("lancementb");
-			}
-			println("BYE BYE");		
-			this.createTurtle(al);
-			this.killAgent(this);
-	 	}
+		}
+		return nbrestationne;
+	}
+	public boolean positionCouranteLibre() {
+		return  (cr.getArcCourant().isPositionPlace(position) &&
+				(stationnementLibre()));
 	}
 	
-	/*
-	 * public void end() { if(Reseau.getNbredemandes()!=0) {
-	 * println("nbre de recherche est "+Reseau.getNbredemandes());
-	 * println("le nbre de cycle totale de recherche est: "
-	 * +Reseau.getNbreCycleTotalRecherche());
-	 * println("le nbre de cycle moyen de recherche: "
-	 * +Reseau.tempsMoyenRecherche());
-	 * println("le taux d'utlisation du systeme est: "
-	 * +Reseau.tauxUtilisationSysteme()+"%");
-	 * println("le nbre de demande de cet ag est: "+nbredemande);
-	 * println("le tnbretotal de de recherches: "
-	 * +Reseau.nbredemandestotales+"et le le nbe de trouvaille de places est: "
-	 * +Reseau
-	 * .getNbredemandes()+" et le nebre d utilisation systeme est :"+Reseau
-	 * .getUtilisationSysteme()); }
-	 * println("le nbre de notif de cet ag est: "+nbrenotif
-	 * +", et le total est "+Reseau.nbrenotification); }
-	 */
+	public boolean stationnementLibre(){
+		Turtle[] turtlehere = turtlesHere();
+		for (int k = 0; k < turtlehere.length; k++) {
+			if (((TurtleNetWorkTurtle) (turtlehere[k])).state == TurtleState.arret) {
+				return false;
+//			System.out.println("agent déja présent : " + turtlehere[k].getName());
+			}
+		}
+		return true; // c'est une place et elle est libre;
+	}
 }

@@ -5,36 +5,62 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Random;
 
-import approche.locale.turtles.AssistantApprocheLocale;
+import network.turtles.TurtleNetWorkTurtle;
+
+import approche.locale.turtles.AssistantApprocheLocaleFull;
 import mapping.utils.EnvHelper;
 
 public class Reseau {
+
+// globaleVariable
+	private static Random hasardCycle = new Random(); 
+	public static int cycleStationnement = 10;
+	public static int cycleVadrouille = 10;
+// gestion structure du r�seau
 	public static int arcCount = 0;
 	public static ArrayList<Arc> listeArc;
 	public static HashSet<Integer> listeArcSuivant;
 	public static HashMap<Long, HashSet<Integer>> arcLies;
-	public static int nbrenotification = 0;
-	private static long nbredemandes = 0;
-	public static int nbreCycleTotalRecherche = 0;
-	private static int step = 0;
-	private static int utilisationSysteme;
-	public static ArrayList<Place> placeprisedebut;
+
+	public static int nbrePlaceArc = 1;
+	private static int nbreCycleVadrouilleMin = 5;
+	private static int nbreCycleOccupationPlace ;
 	public static int nbreAgCommunaute ;
 	public static int nbreAgHorsCommunaute ;
-	public static int nbrePlaceArc = 1;
-	public static int nbreCycleVadrouilleMin = 10;
-	public static int nbreCycleOccupationPlace ;
-	public static int nbremessageechanges = 0;
+	public static int tempsGardeinfHP = 15;
+	public static int tempsGardeinLN = 15;
+
+// nombre de demande communaute
+	private static long nbredemandesTotal = 0; 
+	private static int nbredemandeTotalhorscommunaute = 0;
+	private static int NombrePlaceTrouveHasard = 0;
+
+	// type des agents de la communauté {full, coopetitf}
+	
+	public static String comAgentType="";
+	public static int callCheck=0;
+
+	// nombre total de cycle de recherche
+	private static int nbreCycleTotalRecherche = 0;
+	private static int nbreCycleTotalRechercheHC = 0;
+			
+// nombre d'utilisation du system
+	private static int utilisationSysteme;
+			
+	public static ArrayList<Place> placeprisedebut;
+	private static int nbremessageechanges = 0;
 	public static int nbredemandesannulees = 0;
-	public static int nbredemandehorscommunaute = 0;
-	public static int tempsrecherchehorscommunaute = 0;
+// a voir
 	public static int nbredemandestotales = 0;
-	public static int tempsGardeinfHP = 35;
-	public static int tempsGardeinLN = 35;
 	public static int nbreAppels = 1;
 	public static int simTime;
-	public static int nbreStationnements=0;
+	private static int nbreStationnements=0;
+	private static int nbreStationnementsHC=0;
+
+// liste pour conna�tre les valeurs par cycle
 	public static ArrayList<Integer> nbrePlaceLibresCycle;
 	public static ArrayList<Integer> nbreRechCycle;
 	public static ArrayList<Integer> nbreStatCycle;
@@ -44,15 +70,57 @@ public class Reseau {
 		Reseau.arcCount++;
 		return Reseau.arcCount;
 	}
+	
+	public static int getTempsOccupation(){
+		return nbreCycleOccupationPlace + hasardCycle.nextInt(cycleStationnement);
+	}
+	
+	public static int getTempsVadrouille() {
+		return nbreCycleVadrouilleMin + hasardCycle.nextInt(cycleVadrouille);
+		}
+	
+	public static void afficheArcLie(){
+		for (Map.Entry<Long, HashSet<Integer>> me : arcLies.entrySet()){
+			System.out.println(me.getKey() + ":" + me.getValue());
+			for (Integer i : me.getValue())
+				System.out.println(getArc(i));
+		}
+			
+	}
+	public static long getNbredemandesTotal() {
+		return nbredemandesTotal;
+	}
+
+	public static void incNbredemandesTotal(TurtleNetWorkTurtle agent) {
+		if (!agent.isGare())
+			Reseau.nbredemandesTotal++;
+	}
+
+	public static int getNbredemandeTotalHC() {		
+		return nbredemandeTotalhorscommunaute;
+	}
+
+	public static void incNbredemandeTotalHC(TurtleNetWorkTurtle agent) {
+		if (!agent.isGare())
+			Reseau.nbredemandeTotalhorscommunaute++;
+	}
+
+	public static int getNbreCycleTotalHC() {
+		return nbreCycleTotalRechercheHC;
+	}
 
 	public static void parametreSimulation(int agC, int agHC,int nbrCycleOccupation, int st, int range) {
+		/* ajout */
+		nbreStationnements = 0;
+		nbreStationnementsHC = 0;
+		nbreAppels = 1;
+		/* fin ajout */
+		
 		nbreAgCommunaute = agC;
 		nbreAgHorsCommunaute = agHC;
 		nbreCycleOccupationPlace = nbrCycleOccupation;
-		nbrenotification = 0;
-		nbredemandes = 0;
+		nbredemandesTotal = 0;
 		nbreCycleTotalRecherche = 0;
-		step = 0;
 		nbrePlaceLibresCycle = new ArrayList<Integer>();
 		nbreRechCycle = new ArrayList<Integer>();
 		nbreStatCycle = new ArrayList<Integer>();
@@ -60,11 +128,14 @@ public class Reseau {
 		utilisationSysteme = 0;
 		nbremessageechanges = 0;
 		nbredemandesannulees = 0;
-		nbredemandehorscommunaute = 0;
-		tempsrecherchehorscommunaute = 0;
+		nbredemandeTotalhorscommunaute = 0;
+		nbreCycleTotalRechercheHC = 0;
 		nbredemandestotales = 0;
 		simTime=st;
-		AssistantApprocheLocale.range=range;
+		AssistantApprocheLocaleFull.range=range;
+		NombrePlaceTrouveHasard = 0;
+		
+
 	}
 
 	public static void instancierReseau() {
@@ -74,7 +145,16 @@ public class Reseau {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
+	}
+	
+	public static void instancierReseauBis() {
+		Reseau.arcLies = new HashMap<Long, HashSet<Integer>>();
+		
+		HashSet<Integer> arc1 = new HashSet<Integer>();
+	//	arc1.add(e)
+		//Reseau.arcLies.put(new Long(1),);
+		
+	
 	}
 
 	public static void setNbreAgCommunaute(int nbreAgCommunaute) {
@@ -112,6 +192,10 @@ public class Reseau {
 			System.out.println("NOPE !!!");
 		return null;
 	}
+	
+	public static Arc getArcI(int i){
+		return listeArc.get(i);
+	}
 
 	public static Arc getArc(int id) {
 		int i = 0;
@@ -123,82 +207,40 @@ public class Reseau {
 		return null;
 	}
 
-	public static Arc getArcSuivant(Arc a, boolean sens) {
+	public static Arc getArcSuivant(Arc a, Coordonnees c) {
 
-		/*HashSet<Integer> suivant=getArcLies(a.getId());
+		HashSet<Integer> suivant=getArcLies(a.getId());
 		Iterator<Integer> it=suivant.iterator();
 		Arc b;
 		ArrayList<Arc> suiv=new ArrayList<Arc>();
-		int nbre=0;
 		int idsuiv;
-		if(sens)
-		{
 			while(it.hasNext())
 			{
 				idsuiv=it.next();
 				b=getArc(idsuiv);
-				if(((b.getDebut().getX()==a.getFin().getX())&&(b.getDebut().getY()==a.getFin().getY()))||
-						((b.getFin().getX()==a.getFin().getX())&&(b.getFin().getY()==a.getFin().getY())))
-				{
+				if
+					( (b.getDebut().getX()==c.getX() ) && (b.getDebut().getY()==c.getY())
+					|| (b.getFin().getX()==c.getX() ) &&  (b.getFin().getY()==c.getY())
+					)
 					suiv.add(b);
-					nbre++;
-				}
 			}
-		}
 		
-		else
-		{
-			while(it.hasNext())
-			{
-				idsuiv=it.next();
-				b=getArc(idsuiv);
-				if(((b.getDebut().getX()==a.getDebut().getX())&&(b.getDebut().getY()==a.getDebut().getY()))||
-						((b.getFin().getX()==a.getDebut().getX())&&(b.getFin().getY()==a.getDebut().getY())))
-				{
-					suiv.add(b);
-					nbre++;
-				}
-			}
+/*		if (suiv.size()==1) {
+			System.out.println("potentiel : " + suivant);
+			System.out.println("retenu : " + suiv);
 		}
-		if(nbre==0)
+*/
+		if(suiv.isEmpty())
 			return null;
+		else if (suiv.size()==1)
+			return suiv.get(0);
 		else
 		{	int i=0;
 			do{
-				i=(int)(Math.random()*(nbre));
-			}while(suiv.get(i)==null);
+				i=(int)(Math.random()*(suiv.size()));
+			}while(suiv.get(i)==null || suiv.get(i).equals(a));
 			return suiv.get(i);
 			
-		}*/
-		
-		
-		HashSet<Integer> suivant = getArcLies((long) a.getId());
-
-		Iterator<Integer> it = suivant.iterator();
-		Arc b;
-		ArrayList<Arc> suiv = new ArrayList<Arc>();
-		int nbre = 0;
-		int idsuiv;
-		
-			while (it.hasNext()) {
-				idsuiv = it.next();
-				b = getArc(idsuiv);
-				if (true) {
-					suiv.add(b);
-					nbre++;
-				}
-			}
-
-		if (nbre == 0) {
-			return null;
-		} else {
-			int i;
-			
-			do{
-				i = (int) (Math.random() * (nbre));
-			}while(suiv.get(i)==null);
-			return suiv.get(i);
-
 		}
 	}
 
@@ -209,7 +251,7 @@ public class Reseau {
 		return listeArc.get(i);
 	}
 
-	public static int getPositionDebut(Arc a) {
+	public static int getPositionInitialisation(Arc a) {
 		int nbreposition = a.getNbrePlaces();
 		int i = -1;
 		while ((i < 0) || (i > nbreposition + 1))
@@ -227,24 +269,17 @@ public class Reseau {
 	}
 
 	public static void diminuerPlaceArc(Arc a) {
-		a.minimiserPlace();
+		a.diminuerPlace();
 	}
 
 	public static void libererPlaceArc(Arc a) {
 		a.ajouterPlaceLibre();
 	}
 
-	public static void setNbredemandes() {
-		Reseau.nbredemandes++;
-	}
-
 	public static long getNbredemandes() {
-		return nbredemandes;
+		return nbredemandesTotal;
 	}
 
-	public static void setNbreCycleTotalRecherche(int nbre) {
-		nbreCycleTotalRecherche +=  nbre;
-	}
 
 	public static int getNbreCycleTotalRecherche() {
 		return nbreCycleTotalRecherche;
@@ -254,29 +289,39 @@ public class Reseau {
 		return arcLies.get(i);
 	}
 
-	public static void setStep(int step) {
-		Reseau.step = step;
-	}
-
-	public static int getStep() {
-		return step;
-	}
-
-	public static void setUtilisationSysteme(int utilisationSysteme) {
-		Reseau.utilisationSysteme = utilisationSysteme;
-
-	}
-
 	public static int getUtilisationSysteme() {
 		return utilisationSysteme;
 	}
 
 	public static void utiliserSysteme() {
-		utilisationSysteme = utilisationSysteme + 1;
+		utilisationSysteme++;
+	//	System.out.println("a trouve une place");
+		
 	}
 
+	public static int getNbreStationnements(){
+		return nbreStationnements;
+	}
+	
+	public static  int getNbreStationnementsHC(){
+		return nbreStationnementsHC;
+	}
+	
+	
+	public static int getNbremessageechanges() {
+		return nbremessageechanges;
+	}
+
+	public static void setNbremessageechanges(int nbremessageechanges) {
+		Reseau.nbremessageechanges = nbremessageechanges;
+	}
+
+	public static void intNbremessageechanges() {
+		Reseau.nbremessageechanges++;
+	}
+	
 	public static double tauxUtilisationSysteme() {
-		return (((double) (utilisationSysteme) /nbreStationnements) * 100.0);
+		return (((double) utilisationSysteme) /nbreStationnements) * 100.0;
 	}
 
 	public static float tempsMoyenRecherche() {
@@ -288,7 +333,7 @@ public class Reseau {
 	}
 
 	public static double tempsMoyenRechHC() {
-		return ((double) tempsrecherchehorscommunaute / nbredemandehorscommunaute);
+		return ((double) nbreCycleTotalRechercheHC / nbredemandeTotalhorscommunaute);
 	}
 
 	public static int getNbrePlacelibreReseau() {
@@ -298,4 +343,48 @@ public class Reseau {
 		return nbpl;
 
 	}
+
+	public static void incNbreCycleTotalhorscommunaute(int cycleCherche, TurtleNetWorkTurtle agent) {
+		if (!agent.isGare())
+			Reseau.nbreCycleTotalRechercheHC += cycleCherche;		
+//		System.out.println("AJOUT:" + cycleCherche);
+	}
+	public static void incNbreCycleTotalRecherche(int cycleCherche, TurtleNetWorkTurtle agent) {
+		if (!agent.isGare())
+			Reseau.nbreCycleTotalRecherche += cycleCherche;		
+	}
+
+
+	public static void incNombrePlaceTrouveHasard() {
+		NombrePlaceTrouveHasard++;
+		
+	}
+
+	public static void printState() {
+		System.out.println("nombre de place trouve total Communaut�:" + Reseau.nbreStationnements);
+		System.out.println("nombre de place trouve total Hors Communaut�:" + Reseau.nbreStationnementsHC);
+		
+		System.out.println("nombre de place trouve systeme :" + Reseau.getUtilisationSysteme());
+		System.out.println("nombre de place trouve hasard :" + Reseau.NombrePlaceTrouveHasard);
+		
+	}
+
+	public static int getPositionPlace(Arc arcCourant) {
+		for (int i = 0; i < arcCourant.getPointsArc().size(); i++)
+			if (arcCourant.isPositionPlace(i))
+				return i;
+		return -1;
+	}
+
+	public static void incNbreStationnementsHC() {
+		nbreStationnementsHC++;
+		
+	}
+	public static void incNombreStationnement() {
+		Reseau.nbreStationnements++;
+		
+	}
+
+	
+
 }

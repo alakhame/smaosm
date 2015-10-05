@@ -26,7 +26,7 @@ public class Coordonnees {
 		this.y = y;
 	}
 
-	public boolean estEgal(Coordonnees posit) {
+	public boolean equals(Coordonnees posit) {
 		return ((this.x == posit.getX()) && (this.y == posit.getY()));
 	}
 

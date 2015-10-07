@@ -7,10 +7,10 @@ import turtlekit.kernel.Turtle;
 public abstract class TurtleNetWorkTurtle extends Turtle {
 	public CalculReseau cr;
 	public int cycleArret = 0;
-//à decommenter si gestion individuelle du temps de recherche
+//ï¿½ decommenter si gestion individuelle du temps de recherche
 //	public int cycleCherche = 0;
 	public int cycleVadrouille = 0;
-// valeur de comportement propre à chaque agent
+// valeur de comportement propre ï¿½ chaque agent
 	protected int tempsStationnement;
 	protected int tempsVadrouille;
 	public boolean sens;
@@ -61,14 +61,14 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 		}
 	*/	
 	}
-// remise à zéro lorsque l'agent repart
+// remise ï¿½ zï¿½ro lorsque l'agent repart
 	protected void initialisation() {
 //		cycleCherche = 0;
 		cycleArret = 0;
 		cycleVadrouille = 0;
 		sens = true;
 	}
-// modification de l'état de l'agent
+// modification de l'ï¿½tat de l'agent
 	public abstract void setState(TurtleState ts);
 
 
@@ -77,7 +77,7 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 	}
 
 	protected void circuler(){
-// définie mon nouvel état
+// dï¿½finie mon nouvel ï¿½tat
 		nouvelleEtat();
 		if (state != TurtleState.arret){
 			nouvellePosition();
@@ -86,36 +86,36 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 		}
 	}
 	/*
-	 * agent se déplace et choisi son prochain arc. attentePlace => arret (si
+	 * agent se dï¿½place et choisi son prochain arc. attentePlace => arret (si
 	 * placeLibre) vadrouille => cherche si nbreCycle correct
 	 */
 	
 	protected  Arc arcSuivant(){
-		if (sens) // dans le sens des arcs donc à la fin
+		if (sens) // dans le sens des arcs donc ï¿½ la fin
 			return Reseau.getArcSuivant(cr.getArcCourant(), cr.getArcCourant().getFin());
 		return Reseau.getArcSuivant(cr.getArcCourant(), cr.getArcCourant().getDebut());
 	}
 	
 	protected void nouvellePosition() {
-// je suis arrivé au bout de l'arc	
+// je suis arrivï¿½ au bout de l'arc	
 		if ((cr.getArcCourant().getPositionArc(position).equals(cr.getArcCourant().getFin()) && sens)
 				|| (cr.getArcCourant().getPositionArc(position).equals(cr.getArcCourant().getDebut()) && !sens)) {
 
 			Arc suiv = arcSuivant();			
 //retourne l'arc courant si  le bon arc mais mauvais sens.
-			if (suiv.equals(cr.getArcCourant())){// je reste sur le même arc => demi tour
+			if (suiv.equals(cr.getArcCourant())){// je reste sur le mï¿½me arc => demi tour
 						if (sens)
 							position = suiv.getNbrePlaces() - 1;
 						else 
 							position = 0;
 						sens = !sens;
-				}else if (sens){ // je suis à la fin de l'arc courant
+				}else if (sens){ // je suis ï¿½ la fin de l'arc courant
 						if (cr.getArcCourant().getFin().equals(suiv.getDebut())) {
 							// je suis au debut de l'arc suivant
 							position = 0;
 							sens = true;
 						} else if (cr.getArcCourant().getFin().equals(suiv.getFin())){
-							// je suis à la fin de l'arc suivant
+							// je suis ï¿½ la fin de l'arc suivant
 							position = suiv.getNbrePlaces() - 1;
 							sens = false;
 						} 
@@ -141,14 +141,14 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 	protected abstract void miseAjourDemande();
 	
 	protected void tr_vadrouille_cherche(){
-		miseAjourDemande(); // met à jour le nombre de demande selon le type d'agents.
-		setState(TurtleState.cherche); // je me met en état de recherche
+		miseAjourDemande(); // met ï¿½ jour le nombre de demande selon le type d'agents.
+		setState(TurtleState.cherche); // je me met en ï¿½tat de recherche
 		cycleVadrouille = 0;
 //		cycleCherche = 1;
 	}
 	/*
-	* passe de l'état arret à l'état vadrouille
-	* remise à 0 des compteurs
+	* passe de l'ï¿½tat arret ï¿½ l'ï¿½tat vadrouille
+	* remise ï¿½ 0 des compteurs
 	*/
 		protected void tr_arret_vadrouille() {
 			setState(TurtleState.vadrouille);
@@ -171,13 +171,13 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 			cycleArret++;
 		}
 		/*
-		 * passe à l'état arret. sauf pour le premier pas (?) cela ajoute une
+		 * passe ï¿½ l'ï¿½tat arret. sauf pour le premier pas (?) cela ajoute une
 		 * demande : on suppose que l'agent venait de faire une demande
 		 */
 		protected abstract void tr_cherche_arret(); 
 	
 	/*
-	 * je me suis déplacé, je regarde mon nouvel état et me met à jour
+	 * je me suis dï¿½placï¿½, je regarde mon nouvel ï¿½tat et me met ï¿½ jour
 	 */
 	protected void nouvelleEtat(){ // vadrouille => cherche => arret
 	switch (state) {
@@ -190,19 +190,19 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 		}
 
 		case cherche: {
-				Reseau.incNbreCycleTotalhorscommunaute(1,this);
-			// je suis à la position d'une place et c'est libre
-				int i = turtlesHere().length;
-				boolean test = cr.getArcCourant().isPositionPlace(position);
-				String testArc = cr.getArcCourant().toString();
+			Reseau.incNbreCycleTotalhorscommunaute(1,this);
+		// je suis ï¿½ la position d'une place et c'est libre
+			int i = turtlesHere().length;
+			boolean test = cr.getArcCourant().isPositionPlace(position);
+			String testArc = cr.getArcCourant().toString();
 			if (positionCouranteLibre()) {
-// la place est libre : je me gare
+				// la place est libre : je me gare
 				if (!cr.getArcCourant().getPlace().equals( cr.getArcCourant().getPositionArc(position))){ System.out.println("pb"); System.exit(0);}
-					tr_cherche_arret();
-				}else
-					tr_cherche_cherche();
-			break;
-			}
+				tr_cherche_arret();
+			}else
+				tr_cherche_cherche();
+		break;
+		}
 		case arret: {
 			if (cycleArret > tempsStationnement) {
 				tr_arret_vadrouille();
@@ -231,7 +231,7 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 		for (int k = 0; k < turtlehere.length; k++) {
 			if (((TurtleNetWorkTurtle) (turtlehere[k])).state == TurtleState.arret) {
 				nbrestationne++;
-//				System.out.println("agent déja présent : " + turtlehere[k].getName());
+//				System.out.println("agent dï¿½ja prï¿½sent : " + turtlehere[k].getName());
 			}
 		}
 		return nbrestationne;
@@ -246,7 +246,7 @@ public abstract class TurtleNetWorkTurtle extends Turtle {
 		for (int k = 0; k < turtlehere.length; k++) {
 			if (((TurtleNetWorkTurtle) (turtlehere[k])).state == TurtleState.arret) {
 				return false;
-//			System.out.println("agent déja présent : " + turtlehere[k].getName());
+//			System.out.println("agent dï¿½ja prï¿½sent : " + turtlehere[k].getName());
 			}
 		}
 		return true; // c'est une place et elle est libre;

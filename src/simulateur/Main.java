@@ -15,9 +15,12 @@ import graphics.ReseauParam;
 import madkit.kernel.Kernel;
 
 public class Main {
-
-
+	
+	public static Runtime rt = Runtime.getRuntime(); 
+	public static long memory0, memUsage;
 	public static void main(String[] args) throws FileNotFoundException {
+		Main.rt.gc();
+	    memory0 = rt.totalMemory() - rt.freeMemory();
 		
 		int nombreSimulation = 	1; 		// nombre de simulations
 //		int nbreAgComm		=	200;	// Agents de la communaut�
@@ -25,7 +28,7 @@ public class Main {
 		int simTime	=	1000;		// Nombre de pas d'une simulation + il est important meilleur est le r�sultat ?
 		int range  	= 	10; 		//rayon d'actions des voitures 
 		int maxRange = 5;
-		int vitesse			=	1;	// "vitesse" de la simulation
+		int vitesse			=	1;	// "vitesse" de la simulation (inversement proportionnelle)
 		int nbreCycleOccupation	= 5;
 		boolean isGraphic = false;
 		String typeAgent = "coopetitif";
@@ -44,13 +47,31 @@ public class Main {
 			int nbrAgentMax = 400;
 			
 		//	simule(nombreSimulation,280,0,nbreCycleOccupation,simTime,range, vitesse,isGraphic,typeAgent);
-			
-			for (int r = 5; r <= maxRange ; r += 5){ 
-				simule(nombreSimulation,200,0,nbreCycleOccupation,simTime,r, vitesse,isGraphic,typeAgent);
-				
-				//System.out.println("HERE");
-				//simule(nombreSimulation,nbA,nbrAgentMax-nbA,nbreCycleOccupation,simTime,range, vitesse,isGraphic);
+		
+		/***** Full vs randon *****/
+			int totalAgents = 300; 
+			for(int k=0; k<=totalAgents; k+=20){
+		 		for (int r = 5; r <= maxRange ; r += 5){ 
+					for (int q = 0; q < 10 ; q++){ 
+						simule(nombreSimulation,k,totalAgents-k,nbreCycleOccupation,simTime,r, vitesse,isGraphic,"full");
+					}
+				}
 			}
+		  
+			
+			
+		/****** Scale sim 
+			for (int k = nbrAgentMin; k <= nbrAgentMax ; k+=nbrAccroissement ){ 
+				for (int r = 5; r <= maxRange ; r += 5){ 
+					for (int q = 0; q < 10 ; q++){ 
+						simule(nombreSimulation,k,0,nbreCycleOccupation,simTime,r, vitesse,isGraphic,"full");
+					}
+					for (int q = 0; q < 10 ; q++){ 
+						simule(nombreSimulation,k,0,nbreCycleOccupation,simTime,r, vitesse,isGraphic,"coopetitif");
+					}
+				}
+			}
+		****/
 			
 /*			for (int nbA = nbrAgentMin; nbA < nbrAgentMax ; nbA += nbrAccroissement){
 				simule(nombreSimulation,nbA,0,nbreCycleOccupation,simTime,range, vitesse,isGraphic,typeAgent);
@@ -68,7 +89,7 @@ public class Main {
 		
 		simule(nombreSimulation,400,400,nbreCycleOccupation,simTime,range, vitesse,isGraphic);
 */		
-			System.out.println("Diffuse called "+Reseau.callCheck+" times");
+			System.out.println("check called "+Reseau.callCheck+" times");
 	    
 			
 		System.exit(0);
@@ -96,10 +117,7 @@ public class Main {
 			//paramTab.add(new ReseauParam("nbrePlaceArc", "Nombre de place des arcs",simTime,400));
 					//paramTab.add(new ReseauParam("UR", "System Use",simTime,400));
 			 
-			Runtime rt = Runtime.getRuntime(); 
-		    rt.gc(); 
-		    long memory1=0L, memory2=0L;
-		    memory2 = rt.totalMemory() - rt.freeMemory();
+			
 			Kernel theKernel = new Kernel( "Approche Locale");
 			AbstractMadkitBooter gui = new AbstractMadkitBooter(theKernel);
 	
@@ -121,9 +139,7 @@ public class Main {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
-			}		
-			memory2 = rt.totalMemory() - rt.freeMemory();
-			System.out.println("Usage (mb) : M1= "+ memory1/(1024L * 1024L)+" M2= "+ memory2/(1024L * 1024L));
+			}		 
 			theKernel.stopKernel();
 			Reseau.printState();
 			RecuperationResultat agentExcel = new RecuperationResultat();

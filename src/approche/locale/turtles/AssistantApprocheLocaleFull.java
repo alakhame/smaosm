@@ -13,6 +13,7 @@ import network.structure.Coordonnees;
 import network.structure.PlaceLiberee;
 import network.structure.Place;
 import network.structure.Reseau;
+import simulateur.Main;
 import turtlekit.kernel.Turtle;
 import turtlekit.kernel.TurtleScheduler;
 import madkit.messages.ACLMessage;
@@ -138,7 +139,7 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 			PlaceLiberee plParDefaut = candidates.first();
 			pl = null;
 			trace();
-			System.out.println("Before : "+mgdl.listePlaces);
+			//System.out.println("Before "+mgdl.listePlaces.size()+": "+mgdl.listePlaces);
 			 while(candidates.size()>0){
 				pl=candidates.pollFirst(); // on a trouve la plus proche libre
 				// je suis plus proche ou la place n'int�resse personne
@@ -161,7 +162,8 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 					return;
 				}
 				
-			 }System.out.println("After : "+mgdl.listePlaces);// fin while
+			 }
+			 //System.out.println("After "+mgdl.listePlaces.size()+": "+mgdl.listePlaces);// fin while
 // rien trouv� : tout est choisie et distance + courte					
 /*			 placeChoisie = plParDefaut.getPlace();
 			 cr.plusCourtChemin();
@@ -318,10 +320,14 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 		vehiculesVoisins = turtlesHere();
 		for (Turtle voisin : vehiculesVoisins) {
 			if (voisin instanceof AssistantApprocheLocaleFull) {
-				if (((TurtleNetWorkTurtle)voisin).state != TurtleState.arret)
+				if (((TurtleNetWorkTurtle)voisin).state != TurtleState.arret){
 					voisins.add((TurtleNetWorkTurtle)voisin);
+					
+				}
+				//System.out.print( ((TurtleNetWorkTurtle)voisin).state+ " --- ");
 			}
-		}
+		} //System.out.println();
+		
 		for (int j = -range; j <= range; j++)
 			for (int s = -range; s <= range; s++) {
 				if ((j != 0) && (s != 0))
@@ -336,6 +342,7 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 			}
 		if (voisins.contains(this))
 			voisins.remove(this);
+		 
 		return voisins;
 	}
 
@@ -346,14 +353,13 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 		mgdl.VerificationListe();
 		mgdl.verificationListeNoire();
 		ArrayList<TurtleNetWorkTurtle> voisins = vehiculesVoisins();
-		
+		//if ( ( voisins.size() != 0) )  Reseau.callCheck+=voisins.size();
 		if ((mgdl.listePlaces.size() != 0) && (voisins.size() != 0)) {
 			// diffuser l'informaion de la lib�ration de la place aux vehicules voisins
 			println("IN BROADCAST -- sending "+voisins.size()+" msg -- nb places : "+mgdl.listePlaces.size());
 			ACLMessage msg = new ACLMessage("listeplaces");
 			msg.setField("liste", mgdl.listePlaces);
-			msg.setField("listenoire", mgdl.listenoire);
-			if ( mgdl.listePlaces.size() != 0) Reseau.callCheck++;
+			msg.setField("listenoire", mgdl.listenoire); 
 			for (int i = 0; i < voisins.size(); i++){
 				
 				sendMessage(voisins.get(i).getAddress(), msg);
@@ -459,6 +465,10 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 			mc.diffuser();
 		  	mu.incNbMessageCentralise();
 		}
+		Main.memUsage = Main.rt.totalMemory()-Main.rt.freeMemory();
+		
+		System.out.println("Memory usage :"+(Main.memUsage-Main.memory0)/(1024L*1024L));
+		
 		return "live";
 	}	
 	
@@ -604,9 +614,10 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 // cas 2 :  soit vers versPlace soit reste cherche.
 				tr_recherche_vers();
 				etat += ":vers";
+				//Reseau.callCheck+=turtlesHere().length;
 			}
 			break;
-			}
+		}
 		case arret: {
 			if (cycleArret > tempsStationnement) {
 				tr_arret_vadrouille();
@@ -619,28 +630,30 @@ public class AssistantApprocheLocaleFull extends TurtleNetWorkTurtle {
 			}
 		case versPlace: {
 			Reseau.incNbreCycleTotalRecherche(1,this);
-// Premier cas: il y a des places � cette position
+	// Premier cas: il y a des places � cette position
 			if (positionCouranteLibre()){
-//		il reste des places ******* a priori consid�re une seule place*************
-// ne tient pas compte des arcs.				
+	//		il reste des places ******* a priori consid�re une seule place*************
+	// ne tient pas compte des arcs.				
 					tr_versPlace_arret();
 					etat += ":arret";
-// il ne reste pas de place mais c'�tait ma destination => remise en �tat de recherche;
+	// il ne reste pas de place mais c'�tait ma destination => remise en �tat de recherche;
 			}else if ((cr.getArcCourant().isPositionPlace(position)) && (placeChoisie.getIdArc() == cr.getArcCourant().getId())){
 							tr_versPlace_recherche();	
 							etat += ":cherche";
-// je continue � chercher			
+							//Reseau.callCheck+=turtlesHere().length;
+	// je continue � chercher			
 			} else{
 				tr_versPlace_versPlace();
 				etat += ":versPlace";
 				}
 			break;
-			}
+		}
 		default :
 			System.out.println(this);
 			System.exit(0);
 		}
-//	System.out.print(etat + "===");
+		
+	//System.out.println(etat + "==="); 
 	trace();
 	}	 
 	

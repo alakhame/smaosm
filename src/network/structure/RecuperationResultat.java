@@ -29,11 +29,10 @@ public class RecuperationResultat { //extends Agent {
 
 	public RecuperationResultat() {
 		super();
-		nom_fichier = "resultatSimulation/CompetitionEntreAgents/resultats_" + Reseau.nbreAgCommunaute + "_"
+		nom_fichier = "resultatSimulation/CompetitionEntreAgents full et random/resultats_" + Reseau.nbreAgCommunaute + "_"
 				+ Reseau.nbreAgHorsCommunaute + "_"
 				+ Reseau.cycleStationnement + "_"
-				+ Reseau.tempsGardeinfHP + ".xls";
-		System.out.println("New FILE "+nom_fichier);
+				+ Reseau.tempsGardeinfHP + ".xls"; 
 	}
 
 /*	public void activate() {
@@ -109,7 +108,8 @@ public class RecuperationResultat { //extends Agent {
 			}
 
 			int i = sheet.getRows();
-
+			//if(i==1 || Reseau.comAgentType=="full") i++; 
+			
 			System.out.println("recuperation des resultats"); 
 			Number number = new Number(4, i, Reseau.nbrePlaceArc);
 			Number number1;

@@ -85,18 +85,17 @@ public class AssistantApprocheLocalCoopetitif extends AssistantApprocheLocaleFul
 // je choisis la place si j'en ai pas d'autres ou j'ai plus proche.	
 				
 				if ( (placeChoisie == null) || (distance < tempsAccesPlaceChoisie - (TurtleScheduler.iteration - dateAccesPlaceChoisie))){
- 					//System.out.println("Before : "+mgdl.listePlaces);
+					//System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+					//System.out.println("Before "+mgdl.listePlaces.size()+": "+mgdl.listePlaces);
  					placeChoisie = pl.getPlace(); // on a trouve la plus proche libre
 					cr.getChemin(Reseau.getArc(placeChoisie.getIdArc()),cr.getArcCourant());
 					tempsAccesPlaceChoisie = distance;
 					dateAccesPlaceChoisie = TurtleScheduler.iteration;
-					//System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 					//System.out.println("Candidates "+candidates);
-					//mgdl.retraitListeBlanche(pl);
-					mgdl.listePlaces.remove(pl);
+					mgdl.retraitListeBlanche(pl); 
 					//System.out.println("Betrayal");
 					
-				//System.out.println("After : "+mgdl.listePlaces);
+					//System.out.println("After "+mgdl.listePlaces.size()+": "+mgdl.listePlaces);
 				}
 				return;		
 			}		
